@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Iot-Bus!
+Welcome to Stacey's Iot-Bus!
 ===================
 
 .. toctree::
@@ -20,8 +20,6 @@ Welcome to Iot-Bus!
     :maxdepth: 1
 
     boards/index
-
-    boards/iot-bus-io
 
     boards/iot-bus-proteus
 
