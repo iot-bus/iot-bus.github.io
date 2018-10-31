@@ -21,11 +21,13 @@ Welcome to Iot-Bus!
 
     boards/index
 
-    boards/iot-bus-jtag
-
     boards/iot-bus-io
 
     boards/iot-bus-proteus
+
+    boards/iot-bus-jtag
+
+
 
 
 
