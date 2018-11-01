@@ -663,15 +663,18 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 
 dt {
-    float: left;
-    width: 20%;
-    text-align: right;
-    padding: .25em;
-    clear: left;
+    float: left !important;
+    width: 20% !important;
+    text-align: right !important;
+    padding: .25em !important;
+    clear: left !important;
 }
 dd {
-    float: left;
-    width: 70%;
-    padding: .25em 0;
+    float: left !important;
+    width: 70% !important;
+    padding: .25em 0 !important;
 }
-dl:after {content:"";display:table;clear:both;}
+dl:after {content:"" !important;
+  display:table !important;
+  clear:both !important;
+}
