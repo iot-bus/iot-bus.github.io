@@ -16,21 +16,11 @@ support. Both debugging and flashing is possible using this port.
 .. contents:: Contents
     :local:
 
-Configuration
--------------
+PlatformIO Configuration
+------------------------
 
-You can configure debugging tool using :ref:`projectconf_debug_tool` option in
-:ref:`projectconf`:
-
-.. code-block:: ini
-
-    [env:myenv]
-    platform = ...
-    board = ...
-    debug_tool = iot-bus-jtag
-
-If you would like to use this tool for firmware uploading, please change
-upload protocol:
+You can configure the debugging tool using the debug_tool option in
+platformio.ini:
 
 .. code-block:: ini
 
@@ -38,17 +28,11 @@ upload protocol:
     platform = ...
     board = ...
     debug_tool = iot-bus-jtag
-    upload_protocol = iot-bus-jtag
 
-More options:
+Pins Used
+---------
 
-* :ref:`projectconf_section_env_debug`
-* :ref:`projectconf_section_env_upload`
-
-.. include:: _common_jtag_drivers.rst
-
-Wiring Connections
-------------------
+You only need to make any connections if you are using the JTAG modules outside of the IoT-BUs system.
 
 .. list-table::
   :header-rows:  1
@@ -62,7 +46,7 @@ Wiring Connections
   * - 1
     - GND
     - Digital ground
-  * - 16
+  * - 12
     - TDI
     - Test Data In pin
   * - 14

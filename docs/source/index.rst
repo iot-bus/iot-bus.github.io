@@ -1,5 +1,6 @@
-Welcome to Iot-Bus!
-===================
+
+oddWires IOT-Bus Overview
+=========================
 
 .. toctree::
    :maxdepth: 2
@@ -30,9 +31,15 @@ Welcome to Iot-Bus!
 
     boards/iot-bus-jtag
 
+    boards/iot-bus-display
+
     boards/iot-bus-motor
 
     boards/iot-bus-relay
+
+    boards/iot-bus-canbus
+
+    boards/iot-bus-lora
 
 .. toctree::
     :caption: Examples
@@ -44,7 +51,16 @@ Welcome to Iot-Bus!
     :caption: Mozilla IoT Examples
     :maxdepth: 1
 
-    examples/index
+    mozilla-iot-examples/index
 
+.. toctree::
+    :caption: Frameworks 
+    :maxdepth: 1
 
+    iot-bus-frameworks
 
+.. toctree::
+    :caption: Platforms 
+    :maxdepth: 1
+
+    iot-bus-platforms

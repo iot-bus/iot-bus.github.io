@@ -1,49 +1,27 @@
-.. _iot-bus-proteus:
+.. _iot-bus-lora:
 
-Proteus
-=======
+LoRa
+=====
 
-.. image:: ../_static/iot-bus-proteus.jpg
-  :target: http://www.oddwires.com/iot-bus-esp32-proteus/
+.. image:: ../_static/iot-bus-lora.jpg
+  :target: http://www.oddwires.com/iot-bus-esp32-lora
 
-This IoT-Bus module ...
+This IoT-Bus module is the motor controller.
+`Vendor information... <http://www.oddwires.com/iot-bus-esp32-lora/>`__
 
 .. contents:: Contents
     :local:
 
-
 Pins Used
 ---------
-
-need editing
 
 .. list-table::
   :header-rows:  1
 
-  * - IOT-Bus JTAG Pin
-    - Board JTAG Pin
+  * - IOT-Bus Pin
     - Description
-  * - 2
-    - VCC
-    - Positive Supply Voltage — Power supply for JTAG interface drivers
-  * - 1
-    - GND
-    - Digital ground
-  * - 16
-    - TDI
-    - Test Data In pin
-  * - 14
-    - TMS
-    - Test Mode State pin
-  * - 15
-    - TCK
-    - JTAG Return Test ClocK
-  * - 13
-    - TDO
-    - Test Data Out pin
-  * - 3
-    - RESET
-    - Connect this pin to the (active low) reset input of the target CPU
+  * - X
+    - TBD
 
 .. begin_platforms
 
@@ -72,4 +50,4 @@ Frameworks
     * - :ref:`framework_espidf`
       - Espressif IoT Development Framework. Official development framework for ESP32.
 
-
+  

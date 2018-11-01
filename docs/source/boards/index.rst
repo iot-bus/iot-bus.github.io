@@ -20,4 +20,10 @@ IOT-Bus Boards Index
 
 `Relay <iot-bus-relay.html>`_
     I2C Relay Board.    
+
+`CAN Bus <iot-bus-canbus.html>`_
+    CAN Bus Board.  
+
+`LoRa <iot-bus-lora.html>`_
+    LoRa Board.                  
     

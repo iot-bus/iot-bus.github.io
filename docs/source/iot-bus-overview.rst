@@ -1,8 +1,5 @@
 .. _iot-bus-overview:
 
-oddWires IOT-Bus Overview
-=========================
-
 The oddWires IoT-Bus system is based on a low-cost, open design that includes multiple main boards 
 including a minimalist, breadboard-friendly form factorthe IoT-Bus Io and a
 version with a large prototyping area which enables a single-board IoT solution, the Proteus. 

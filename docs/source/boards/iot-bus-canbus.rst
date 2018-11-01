@@ -1,49 +1,27 @@
-.. _iot-bus-proteus:
+.. _iot-bus-canbus:
 
-Proteus
+CAN Bus
 =======
 
-.. image:: ../_static/iot-bus-proteus.jpg
-  :target: http://www.oddwires.com/iot-bus-esp32-proteus/
+.. image:: ../_static/iot-bus-canbus.jpg
+  :target: http://www.oddwires.com/iot-bus-esp32-canbus
 
-This IoT-Bus module ...
+This IoT-Bus module provides CAN Bus capability.
+`Vendor information... <http://www.oddwires.com/iot-bus-esp32-io/>`__
 
 .. contents:: Contents
     :local:
 
-
 Pins Used
 ---------
-
-need editing
 
 .. list-table::
   :header-rows:  1
 
-  * - IOT-Bus JTAG Pin
-    - Board JTAG Pin
-    - Description
-  * - 2
-    - VCC
-    - Positive Supply Voltage — Power supply for JTAG interface drivers
-  * - 1
-    - GND
-    - Digital ground
-  * - 16
-    - TDI
-    - Test Data In pin
-  * - 14
-    - TMS
-    - Test Mode State pin
-  * - 15
-    - TCK
-    - JTAG Return Test ClocK
-  * - 13
-    - TDO
-    - Test Data Out pin
-  * - 3
-    - RESET
-    - Connect this pin to the (active low) reset input of the target CPU
+  * - 4
+    - CAN BUs TX
+  * - 5
+    - CAN Bus RX
 
 .. begin_platforms
 
@@ -72,4 +50,4 @@ Frameworks
     * - :ref:`framework_espidf`
       - Espressif IoT Development Framework. Official development framework for ESP32.
 
-
+  
