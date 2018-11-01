@@ -1,6 +1,6 @@
 .. _boards_index:
 
-IOT-Bus Boards Index
+IoT-Bus Boards Index
 ====================
 
 `Io <iot-bus-io.html>`_
@@ -12,7 +12,7 @@ IOT-Bus Boards Index
 `JTAG <iot-bus-jtag.html>`_
     JTAG debugging with either the Io or Proteus. Works out of the box with PlatformIo Unified Debugger. 
     
-`TFT Touch Display <iot-bus-tft-touch-display.html>`_
+`2.4" QVGA TFT Touch Display <iot-bus-display.html>`_
     2.4" QVGA TFT Touch Display for use withe Io processor board.
     
 `Motor <iot-bus-motor.html>`_

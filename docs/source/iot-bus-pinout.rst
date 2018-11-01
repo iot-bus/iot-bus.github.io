@@ -1,6 +1,6 @@
 .. _iot-bus-pinout:
 
-IOT-Bus Pinout
+IoT-Bus Pinout
 ==============
 
 .. figure:: _static/pinout@0,5x.png

@@ -1,6 +1,6 @@
 .. _examples_index:
 
-IOT-Bus Examples Index
+iot-Bus Examples Index
 ====================
 
 `Io <iot-bus-io.html>`_

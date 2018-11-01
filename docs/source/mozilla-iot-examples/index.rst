@@ -1,6 +1,6 @@
 .. _examples_index:
 
-IOT-Bus Mozilla IoT Examples
+IoT-Bus Mozilla IoT Examples
 ============================
 
 `LED <LED.html>`_
