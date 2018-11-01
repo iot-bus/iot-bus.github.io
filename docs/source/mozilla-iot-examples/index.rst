@@ -1,4 +1,4 @@
-.. _examples_index:
+.. _mozilla_iot_examples_index:
 
 IoT-Bus Mozilla IoT Examples
 ============================

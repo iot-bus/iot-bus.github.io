@@ -19,7 +19,7 @@ IoT-Bus Boards Index
     I2C Motor Controller Board.
 
 `Relay <iot-bus-relay.html>`_
-    I2C Relay Board.    
+    Relay Board.    
 
 `CAN Bus <iot-bus-canbus.html>`_
     CAN Bus Board.  

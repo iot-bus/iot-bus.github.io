@@ -6,7 +6,7 @@ LoRa
 .. image:: ../_static/iot-bus-lora.jpg
   :target: http://www.oddwires.com/iot-bus-esp32-lora
 
-This IoT-Bus module is the motor controller.
+This IoT-Bus module is LoRa transceiver.
 `Vendor information... <http://www.oddwires.com/iot-bus-esp32-lora/>`__
 
 .. contents:: Contents

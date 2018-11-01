@@ -1,7 +1,7 @@
 .. _examples_index:
 
 iot-Bus Examples Index
-====================
+======================
 
 `Io <iot-bus-io.html>`_
     Small Form Factor 4MB Dual-Core 240MHz ESP32 processor board with WiFi and Bluetooth.

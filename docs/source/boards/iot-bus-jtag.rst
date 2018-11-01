@@ -7,7 +7,7 @@ JTAG
   :target: http://www.oddwires.com/iot-bus-esp32-jtag/?utm_source=platformio&utm_medium=docs
 
 This IoT-Bus module provides JTAG debugging for the
-:ref:`board_espressif32_iotbusio` and :ref:`board_espressif32_iotbusproteus`
+:ref:`iot-bus-io` and :ref:`iot-bus-proteus`
 boards (can be used with other boards too, see wiring connections below).
 The board uses the FT232H to provide a USB controller with JTAG
 support. Both debugging and flashing is possible using this port.
@@ -88,7 +88,4 @@ Frameworks
 
     * - :ref:`framework_espidf`
       - Espressif IoT Development Framework. Official development framework for ESP32.
-
-    * - :ref:`framework_simba`
-      - Simba is an RTOS and build framework. It aims to make embedded programming easy and portable.
 
