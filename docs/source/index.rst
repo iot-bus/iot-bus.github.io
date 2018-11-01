@@ -1,23 +1,16 @@
 
-oddWires IOT-Bus Overview
-=========================
+Welcome to oddWires IOT-Bus 
+===========================
 
 .. toctree::
-   :maxdepth: 2
+   :caption: IoT-Bus Introduction
+   :maxdepth: 1
 
    iot-bus-overview.rst
+ 
+   iot-bus-pinout
 
-.. toctree::
-    :caption: IoT-Bus Pinout
-    :maxdepth: 2    
-
-    iot-bus-pinout
-
-.. toctree::
-    :caption: Getting Started
-    :maxdepth: 2
-
-    iot-bus-getting-started
+   iot-bus-getting-started
 
 .. toctree::
     :caption: Boards
