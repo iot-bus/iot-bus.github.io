@@ -1,19 +1,22 @@
-.. iot-bus documentation master file, created by
-   sphinx-quickstart on Tue Oct 30 11:44:10 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Stacey's Iot-Bus!
+Welcome to Iot-Bus!
 ===================
 
 .. toctree::
    :maxdepth: 2
 
-   what-is-iot-bus
+   iot-bus-overview.rst
+
+.. toctree::
+    :caption: IoT-Bus Pinout
+    :maxdepth: 2    
+
+    iot-bus-pinout
 
 .. toctree::
     :caption: Getting Started
-    :maxdepth: 1
+    :maxdepth: 2
+
+    iot-bus-getting-started
 
 .. toctree::
     :caption: Boards
@@ -21,11 +24,27 @@ Welcome to Stacey's Iot-Bus!
 
     boards/index
 
+    boards/iot-bus-io
+
     boards/iot-bus-proteus
 
     boards/iot-bus-jtag
 
+    boards/iot-bus-motor
 
+    boards/iot-bus-relay
+
+.. toctree::
+    :caption: Examples
+    :maxdepth: 1
+
+    examples/index
+
+.. toctree::
+    :caption: Mozilla IoT Examples
+    :maxdepth: 1
+
+    examples/index
 
 
 

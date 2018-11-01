@@ -661,3 +661,17 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     filter: alpha(Opacity=100);
     opacity: 1
 }
+
+dt {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding: .25em;
+    clear: left;
+}
+dd {
+    float: left;
+    width: 70%;
+    padding: .25em 0;
+}
+dl:after {content:"";display:table;clear:both;}

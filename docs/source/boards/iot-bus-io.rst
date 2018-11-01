@@ -9,10 +9,10 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 
-.. _debugging_tool_iot-bus-jtag:
+.. _iot-bus-io:
 
-oddWires IOT-Bus Io
-===================
+Io
+==
 
 .. image:: ../_static/iot-bus-io.jpg
   :target: http://www.oddwires.com/iot-bus-esp32-io/?utm_source=platformio&utm_medium=docs
@@ -23,67 +23,18 @@ This IoT-Bus module is the foundation of the IoT-Bus system.
 .. contents:: Contents
     :local:
 
-Configuration
--------------
 
-You can configure debugging tool using :ref:`projectconf_debug_tool` option in
-:ref:`projectconf`:
 
-.. code-block:: ini
-
-    [env:myenv]
-    platform = ...
-    board = ...
-    debug_tool = iot-bus-jtag
-
-If you would like to use this tool for firmware uploading, please change
-upload protocol:
-
-.. code-block:: ini
-
-    [env:myenv]
-    platform = ...
-    board = ...
-    debug_tool = iot-bus-jtag
-    upload_protocol = iot-bus-jtag
-
-More options:
-
-* :ref:`projectconf_section_env_debug`
-* :ref:`projectconf_section_env_upload`
-
-.. include:: _common_jtag_drivers.rst
-
-Wiring Connections
-------------------
+Pins Used
+---------
 
 .. list-table::
   :header-rows:  1
 
-  * - IOT-Bus JTAG Pin
-    - Board JTAG Pin
+  * - IOT-Bus Pin
     - Description
-  * - 2
-    - VCC
-    - Positive Supply Voltage — Power supply for JTAG interface drivers
-  * - 1
-    - GND
-    - Digital ground
-  * - 16
-    - TDI
-    - Test Data In pin
-  * - 14
-    - TMS
-    - Test Mode State pin
-  * - 15
-    - TCK
-    - JTAG Return Test ClocK
-  * - 13
-    - TDO
-    - Test Data Out pin
-  * - 3
-    - RESET
-    - Connect this pin to the (active low) reset input of the target CPU
+  * - 5
+    - On-board LED
 
 .. begin_platforms
 
@@ -112,6 +63,4 @@ Frameworks
     * - :ref:`framework_espidf`
       - Espressif IoT Development Framework. Official development framework for ESP32.
 
-    * - :ref:`framework_simba`
-      - Simba is an RTOS and build framework. It aims to make embedded programming easy and portable.
-
+  
