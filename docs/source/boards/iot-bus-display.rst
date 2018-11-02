@@ -80,6 +80,8 @@ Schematic
     :scale: 10%
     :target: ../_static/iot-bus-tft-display-v1.0-schematic.png
 
+Click image to enlarge.      
+
 Libraries
 ---------
 

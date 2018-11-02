@@ -35,12 +35,10 @@ Schematic
 .. image:: ../_static/iot-bus-relay-v1.0-schematic.png
     :align: left
     :alt: IoT-Bus Io Schematic
-    :scale: 50%
+    :scale: 10%
     :target: ../_static/iot-bus-relay-v1.0-schematic.png
 
-.. raw:: html
-  
-    <p style="clear: both;">     
+Click image to enlarge.    
 
 Platforms
 ---------

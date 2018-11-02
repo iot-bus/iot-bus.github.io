@@ -107,9 +107,7 @@ Schematic
     :scale: 10%
     :target: ../_static/iot-bus-lora-v1.0-schematic.png
 
-.. raw:: html
-  
-    <p style="clear: both;">     
+Click image to enlarge.   
 
 Platforms
 ---------

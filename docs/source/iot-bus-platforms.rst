@@ -18,8 +18,8 @@ The ESP-WROOM-32 Wifi Bluetooth combo module provides SDK Firmware for fast on-l
 
 ESP32 is the most integrated solution for Wi-Fi + Bluetooth applications in the industry with less than 10 external components. ESP32 integrates the antenna switch, RF balun, power amplifier, low noise receive amplifier, filters, and power management modules. As such, the entire solution occupies minimal Printed Circuit Board (PCB) area. ESP32 is designed for mobile, wearable electronics, and Internet of Things (IoT) applications. It has many features of the state-of-the-art low power chips, including fine resolution clock gating, power modes, and dynamic power scaling. 
 
-Key Features
-------------
+Espressif32 Key Features
+-------------------------
 
 Core
       • CPU and Memory: Xtensa® 32-bit LX6 Dua-core processor, up to 600 DMIPS.
