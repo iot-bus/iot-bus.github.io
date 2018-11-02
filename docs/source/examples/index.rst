@@ -10,23 +10,23 @@ Iot-Bus Examples Index
     A simple WiFi example that starts up a webserver and responds to HTTP requests.
 
 `Canbus <examples-canbus.html>`_
-    Demonstrates how to send and receive data using CAN Bus. 
+    How to send and receive data using CAN Bus. 
 
 `Relay <examples-relay.html>`_
     Demonstrates how to switch the relay on and off.
 
 `Remote Relay <examples-relay-remote.html>`_
-    Demonstrates how to switch the relay on and off using a web-server.       
+    How to switch the relay on and off using a web-server.       
     
 `LoRa <examples-lora.html>`_
-    Demonstrates how to send and receive data using LoRa.  
+    How to send and receive data using LoRa.  
 
 `Motor <examples-motor.html>`_
-    Demonstrates how to control a stepper motor.
+    How to control a stepper motor.
 
 `Display <examples-display.html>`_
     Simple graphics test.
 
 `Touch <examples-touch.html>`_
-    Shows how to use the touch screen.                        
+    How to use the touch screen.                        
     
