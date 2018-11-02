@@ -16,8 +16,6 @@ Welcome to oddWires IOT-Bus
     :caption: Boards
     :maxdepth: 1
 
-    boards/index
-
     boards/iot-bus-io
 
     boards/iot-bus-proteus
