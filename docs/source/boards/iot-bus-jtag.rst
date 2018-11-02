@@ -70,7 +70,7 @@ Schematic
 .. image:: ../_static/iot-bus-jtag-v1.0-schematic.png
     :align: left
     :alt: IoT-Bus Io Schematic
-    :scale: 10%
+    :scale: 8%
     :target: ../_static/iot-bus-jtag-v1.0-schematic.png
 
 Click image to enlarge.

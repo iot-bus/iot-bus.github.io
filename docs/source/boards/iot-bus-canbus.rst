@@ -41,7 +41,7 @@ Schematic
 .. image:: ../_static/iot-bus-esp32-can-bus-schematic.png
     :align: left
     :alt: IoT-Bus Io Schematic
-    :scale: 10%
+    :scale: 25%
     :target: ../_static/iot-bus-esp32-can-bus-schematic.png
 
 Click image to enlarge.

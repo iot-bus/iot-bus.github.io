@@ -49,7 +49,7 @@ Schematic
 .. image:: ../_static/iot-bus-proteus-v1.1-schematic.png
     :align: left
     :alt: IoT-Bus Io Schematic
-    :scale: 10%
+    :scale: 7%
     :target: ../_static/iot-bus-proteus-v1.1-schematic.png  
 
 Platforms
