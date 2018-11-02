@@ -4,10 +4,19 @@ LoRa
 =====
 
 .. image:: ../_static/iot-bus-lora.jpg
-  :target: http://www.oddwires.com/iot-bus-esp32-lora
+    :align: left
+    :alt: Io
+    :scale: 50%
+    :target: http://www.oddwires.com/iot-bus-lora/
+
+.. raw:: html
+  
+    <p style="clear: both;">  
+
 
 This IoT-Bus module is LoRa transceiver.
-`Vendor information... <http://www.oddwires.com/iot-bus-esp32-lora/>`__
+
+`See it in the oddWires store... <http://www.oddwires.com/iot-bus-lora/>`__
 
 .. contents:: Contents
     :local:

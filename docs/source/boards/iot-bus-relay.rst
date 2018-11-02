@@ -4,10 +4,18 @@ Relay
 =====
 
 .. image:: ../_static/iot-bus-relay.jpg
-  :target: http://www.oddwires.com/iot-bus-esp32-Relay
+    :align: left
+    :alt: Io
+    :scale: 50%
+    :target: http://www.oddwires.com/iot-bus-relay/
+
+.. raw:: html
+  
+    <p style="clear: both;">     
 
 This IoT-Bus module is a 110V, 10A maximum AC relay board in the IoT-Bus form factor.
-`Vendor information... <http://www.oddwires.com/iot-bus-esp32-relay>`__
+
+`See it in the oddWires store... <http://www.oddwires.com/iot-bus-relay/>`__
 
 .. contents:: Contents
     :local:

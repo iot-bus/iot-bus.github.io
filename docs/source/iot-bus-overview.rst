@@ -20,6 +20,15 @@ for a professional multi-tasking system based on freeRTOS or the popular Arduino
 
 So take your choice! Other platforms include javascript by moddable, python by Micropython, or the mongoose server.
 
+
+.. figure:: _static/collage-latest-boards.jpg
+    :align: center
+    :alt: IoT-bus Boards
+    :figclass: align-center
+
+    Some IoT-Bus Boards
+
+
 IoT-Bus System
 --------------
 
@@ -55,7 +64,25 @@ Two main-board form-factors
 ---------------------------
 
 * Io - Very small and breadboard-friendly with option of male, female or both stackable headers
+
+.. figure:: _static/iot-bus-io.jpg
+    :align: center
+    :alt: Io Board
+    :scale: 50%
+    :figclass: align-center
+
+    Io 
+
+
 * Proteus - larger prototyping board for easier customization and pinout access
+
+.. figure:: _static/iot-bus-proteus.jpg
+    :align: center
+    :alt: Proteus Board
+    :scale: 50%
+    :figclass: align-center
+
+    Proteus 
 
 JTAG Debugging
 --------------
@@ -63,23 +90,73 @@ Both the Io and Proteus processor boards can accept a specially designed JTAG bo
 hardware debugging. Take a look at how easy it is to use with PlatformIO's Unified Debugger. 
 Just plug it in and start debugging! No more printing to the terminal!
 
+.. figure:: _static/iot-bus-jtag.jpg
+    :align: center
+    :alt: JTAG
+    :scale: 40%
+    :figclass: align-center
+
+    JTAG 
+
 2.4" Touch TFT QVGA Display
 ---------------------------
 
 There is a 320x240 QVGA TFT Touch Display offering plug and play display output and 
 touch sensing together with a 4-bit SDMMC SD Card.
 
-Two additional connectivity options
+.. figure:: _static/iot-bus-display.jpg
+    :align: center
+    :alt: 2.4" QVGA Touch Display
+    :scale: 60%
+    :figclass: align-center
+
+    2.4" QVGA Touch Display 
+
+Two Additional Connectivity Options
 -----------------------------------
 
 * CAN Bus - CAN Bus module
+
+.. figure:: _static/iot-bus-canbus.jpg
+    :align: center
+    :alt: CAN Bus
+    :scale: 50%
+    :figclass: align-center
+
+    CAN Bus
+
 * LoRa - HOPE RFM95 integration
 
-Two controller boards
+.. figure:: _static/iot-bus-lora.jpg
+    :align: center
+    :alt: LoRa
+    :scale: 50%
+    :figclass: align-center
+
+    LoRa
+
+Two Controller Boards
 ---------------------
 
 * Relay - opto-isolated relay board
-* Motor - two stepper or four DC motor controller
+
+.. figure:: _static/iot-bus-relay.jpg
+    :align: center
+    :alt: Relay
+    :scale: 50%
+    :figclass: align-center
+
+    Relay
+
+* Motor - Two Stepper or Four DC Motor Controller
+
+.. figure:: _static/iot-bus-motor.jpg
+    :align: center
+    :alt: Motor
+    :scale: 50%
+    :figclass: align-center
+
+    Motor
 
 Platforms
 ---------
@@ -89,7 +166,7 @@ Platforms
     * - Name
       - Description
 
-    * - :ref:`espressif32`
+    * - :ref:`platform_espressif32`
       - Espressif Systems is a privately held fabless semiconductor company. They provide wireless communications and Wi-Fi chips which are widely used in mobile devices and the Internet of Things applications.
 
 Frameworks
@@ -100,10 +177,10 @@ Frameworks
     * - Name
       - Description
 
-    * - :ref:`arduino`
+    * - :ref:`framework_arduino`
       - Arduino Wiring-based Framework allows writing cross-platform software to control devices attached to a wide range of Arduino boards to create all kinds of creative coding, interactive objects, spaces or physical experiences.
 
-    * - :ref:`esp-idf`
+    * - :ref:`framework_espidf`
       - Espressif IoT Development Framework. Official development framework for ESP32.
 
 

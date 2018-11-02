@@ -4,10 +4,18 @@
 =======================
 
 .. image:: ../_static/iot-bus-display.jpg
-  :target: http://www.oddwires.com/iot-bus-esp32-display
+    :align: left
+    :alt: Io
+    :scale: 50%
+    :target: http://www.oddwires.com/iot-bus-qvga-2-4-tft-touch-display/
+
+.. raw:: html
+  
+    <p style="clear: both;">  
 
 This IoT-Bus is the display modules...
-`Vendor information... <http://www.oddwires.com/iot-bus-esp32-display/>`__
+
+`See it in the oddWires store... <http://www.oddwires.com/iot-bus-qvga-2-4-tft-touch-display/>`__
 
 .. contents:: Contents
     :local:

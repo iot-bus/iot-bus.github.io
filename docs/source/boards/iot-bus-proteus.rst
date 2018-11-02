@@ -4,9 +4,18 @@ Proteus
 =======
 
 .. image:: ../_static/iot-bus-proteus.jpg
-  :target: http://www.oddwires.com/iot-bus-esp32-proteus/
+    :align: left
+    :alt: Proteus
+    :scale: 50%
+    :target: http://www.oddwires.com/proteus-iot-bus-esp32-microprocessor-wi-fi-and-bluetooth-with-prototype-board-form-factor/
+
+.. raw:: html
+  
+    <p style="clear: both;">      
 
 This IoT-Bus module ...
+
+`See it in the oddWires store... <http://www.oddwires.com/proteus-iot-bus-esp32-microprocessor-wi-fi-and-bluetooth-with-prototype-board-form-factor/>`__
 
 .. contents:: Contents
     :local:

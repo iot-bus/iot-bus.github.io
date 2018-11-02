@@ -4,10 +4,18 @@ Motor
 =====
 
 .. image:: ../_static/iot-bus-motor.jpg
-  :target: http://www.oddwires.com/iot-bus-esp32-Motor
+    :align: left
+    :alt: Io
+    :scale: 50%
+    :target: http://www.oddwires.com/iot-bus-motor-controller/
+
+.. raw:: html
+  
+    <p style="clear: both;">    
 
 This IoT-Bus module is the motor controller.
-`Vendor information... <http://www.oddwires.com/iot-bus-esp32-io/?utm_source=platformio&utm_medium=docs>`__
+
+`See it in the oddWires store... <http://www.oddwires.com/iot-bus-motor-controller/>`__
 
 .. contents:: Contents
     :local:

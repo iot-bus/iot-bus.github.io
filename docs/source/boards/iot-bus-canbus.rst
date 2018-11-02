@@ -4,10 +4,20 @@ CAN Bus
 =======
 
 .. image:: ../_static/iot-bus-canbus.jpg
-  :target: http://www.oddwires.com/iot-bus-esp32-canbus
+    :align: left
+    :alt: CAN Bus
+    :scale: 50%
+    :width: 100%
+    :target: http://www.oddwires.com/iot-bus-esp32-can-bus/
+
+.. raw:: html
+  
+    <p style="clear: both;">  
+
 
 This IoT-Bus module provides CAN Bus capability.
-`Vendor information... <http://www.oddwires.com/iot-bus-esp32-io/>`__
+
+`See it in the oddWires store... <http://www.oddwires.com/iot-bus-esp32-can-bus/>`__
 
 .. contents:: Contents
     :local:
