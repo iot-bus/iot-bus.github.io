@@ -4,7 +4,7 @@ Iot-Bus Overview
 ================
 
 The oddWires IoT-Bus system is based on a low-cost, open design that includes multiple main boards 
-including a minimalist, breadboard-friendly form factorthe IoT-Bus Io and a
+including a minimalist, breadboard-friendly form-factor, the IoT-Bus Io and a
 version with a large prototyping area which enables a single-board IoT solution, the Proteus. 
 
 Thhe IoT-Bus is designed to be "plug and play" - the new range of oddWires open IoT-Bus boards use the 
@@ -18,7 +18,7 @@ A variety of programming languages, environments and frameworks that work right 
 supports most of them in a professional or serious educational or hobby environment. You can use either the esp-idf framework 
 for a professional multi-tasking system based on freeRTOS or the popular Arduino environment for simplicity.
 
-So take your choice! Other platforms include javascript by moddable, python by Micropython, or the mongoose server
+So take your choice! Other platforms include javascript by moddable, python by Micropython, or the mongoose server.
 
 IoT-Bus System
 --------------
