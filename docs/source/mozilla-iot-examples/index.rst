@@ -17,7 +17,48 @@ You can find the code for all the examples on github `here <https://github.com/i
     const char* ssid = "........";
     const char* password = "........";
 
-These examples are structured for Platformio but can be run using the Arduino IDE by renaming the source file as .ino and saving it in a folder of the same name. If you run under Arduino you'll have to ensure each library is installed in the "Arduino/Libraries" folder. You can find the library dependencies for each in the platformio.ini file.
+These examples are structured for PlatformIO but can be run using the Arduino IDE by 
+renaming the source file as .ino and saving it in a folder of the same name. 
+If you run under Arduino you'll have to ensure each library is installed in the 
+"Arduino/Libraries" folder. You can find the library dependencies for each in the platformio.ini file. 
+The typical platformio.ini for mozilla-iot contains:
+
+.. code-block:: ini
+    
+    [env:iotbusio]
+    platform = espressif32
+    board = iotbusio
+    framework = arduino
+
+    ; Serial Monitor options
+    monitor_speed = 115200
+
+    ; Library dependencies
+    lib_deps = ArduinoJson
+            https://github.com/me-no-dev/ESPAsyncWebServer
+            https://github.com/mozilla-iot/webthing-arduino
+
+If you are using a display, this would be the platformio.ini required:
+
+.. code-block:: ini
+
+    [env:iotbusio]
+    platform = espressif32
+    board = iotbusio
+    framework = arduino
+
+    ; Serial Monitor options
+    monitor_speed = 115200
+
+    ; Library dependencies inclduing tft and touchscreen
+    lib_deps = ArduinoJson
+            https://github.com/me-no-dev/ESPAsyncWebServer
+            https://github.com/mozilla-iot/webthing-arduino
+            https://github.com/iot-bus/XPT2046_Touchscreen
+            https://github.com/iot-bus/TFT_eSPI
+
+Of course if you are using other libraries for sensors or your own, 
+you can include them here and PlatformIO will locate and install them.            
 
 .. image:: ../_static/relay-on.jpg
 

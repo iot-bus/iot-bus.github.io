@@ -190,13 +190,13 @@ Two Additional Connectivity Options
   
     <p style="clear: both;">      
 
-`LoRa™ <boards/iot-bus-lora.html>`_
+`LoRa <boards/iot-bus-lora.html>`_
   This IoT-Bus module utilizes the Hope RFM95 to offer low-cost, LoRa radio transmission and a Wi-Fi/LoRa gateway. 
   It uses the correct 915 MHz rather than the 433 MHz european standard often found.
-  The RFM95W transceivers feature the LoRa™ long range modem that provides ultra-long range spread spectrum 
+  The RFM95W transceivers feature the LoRa long range modem that provides ultra-long range spread spectrum 
   communication and high interference immunity whilst minimizing current consumption.
 
-  Using Hope RF’s patented LoRa™ modulation technique RFM95W can achieve a sensitivity of over -148dBm using a 
+  Using Hope RF’s patented LoRa modulation technique RFM95W can achieve a sensitivity of over -148dBm using a 
   low cost crystal and bill of materials. The high sensitivity combined with the integrated +20 dBm power 
   amplifier yields industry-leading link budget  making it optimal for any application requiring range or robustness. 
   
@@ -223,8 +223,8 @@ Two Controller Boards
 ---------------------
 
 `Relay <boards/iot-bus-relay.html>`_
-  This is an opto-isolated relay board driven by a single digital pin.
-
+  This is an opto-isolated relay board driven by a single digital pin. It is a 110V, 10A maximum AC relay board in the IoT-Bus form factor.
+  
   .. figure:: _static/iot-bus-relay.jpg
       :align: left
       :alt: Relay
@@ -240,7 +240,7 @@ Two Controller Boards
 
 `Motor <boards/iot-bus-motor.html>`_
   This IoT-Bus module provides a motor controller. It uses two TB6612FNG motor drivers controlled by a PCA9685 on the I2C bus. 
-  The default address is 0x5F but can be changed from 0x40 through 0x5F by disconnecting solder blobs. It supports two stepper motors or four DC Motors.
+  It supports two stepper motors or four DC Motors.
 
   .. figure:: _static/iot-bus-motor.jpg
       :align: left

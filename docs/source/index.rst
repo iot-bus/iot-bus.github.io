@@ -35,6 +35,12 @@ Welcome to oddWires IOT-Bus
     boards/iot-bus-lora
 
 .. toctree::
+    :caption: Kits
+    :maxdepth: 1
+
+    kits/index    
+
+.. toctree::
     :caption: Examples
     :maxdepth: 1
 

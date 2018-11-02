@@ -15,25 +15,36 @@ CAN Bus
     <p style="clear: both;">  
 
 
-This IoT-Bus module provides CAN Bus capability.
+  The IoT-Bus CAN Bus module offers a transceiver that enables you to use the onboard ESP32 CAN controller. You can
+  connect the terminals to any required connection.
 
-`See it in the oddWires store... <http://www.oddwires.com/iot-bus-esp32-can-bus/>`__
-
-.. contents:: Contents
-    :local:
+`Buy it in the oddWires store... <http://www.oddwires.com/iot-bus-esp32-can-bus/>`__
 
 Pins Used
 ---------
 
 .. list-table::
   :header-rows:  1
-
+  
+  * - IOT-Bus Pin
+    - Description
   * - 4
-    - CAN BUs TX
+    - CAN Bus RXD
   * - 5
-    - CAN Bus RX
+    - CAN Bus TXD
 
-.. begin_platforms
+.. note:: CAN Bus cannot be used at the same time as LoRa. 
+
+Schematic
+---------
+
+.. image:: ../_static/iot-bus-esp32-can-bus-schematic.png
+    :align: left
+    :alt: IoT-Bus Io Schematic
+    :scale: 10%
+    :target: ../_static/iot-bus-esp32-can-bus-schematic.png
+
+Click image to enlarge.
 
 Platforms
 ---------

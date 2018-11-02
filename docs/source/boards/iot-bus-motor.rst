@@ -13,12 +13,10 @@ Motor
   
     <p style="clear: both;">    
 
-This IoT-Bus module is the motor controller.
+  This IoT-Bus module provides a motor controller. It uses two TB6612FNG motor drivers controlled by a PCA9685 on the I2C bus. 
+  The default address is 0x5F but can be changed from 0x40 through 0x5F by disconnecting solder blobs. It supports two stepper motors or four DC Motors.
 
-`See it in the oddWires store... <http://www.oddwires.com/iot-bus-motor-controller/>`__
-
-.. contents:: Contents
-    :local:
+`Buy it in the oddWires store... <http://www.oddwires.com/iot-bus-motor-controller/>`__
 
 Pins Used
 ---------
@@ -28,10 +26,25 @@ Pins Used
 
   * - IOT-Bus Pin
     - Description
-  * - 5
-    - On-board LED
+  * - 21
+    - SDA
+  * - 22
+    - SCL  
+  * - 3V3
+    - Power
+  * - GND
+    - Ground  
 
-.. begin_platforms
+Schematic
+---------
+
+.. image:: ../_static/iot-bus-motor-v1.0-schematic.png
+    :align: left
+    :alt: IoT-Bus Motor Schematic
+    :scale: 10%
+    :target: ../_static/iot-bus-motor-v1.0-schematic.png 
+
+Click image to enlarge. 
 
 Platforms
 ---------

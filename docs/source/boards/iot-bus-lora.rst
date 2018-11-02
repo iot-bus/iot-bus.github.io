@@ -14,11 +14,20 @@ LoRa
     <p style="clear: both;">  
 
 
-This IoT-Bus module utilizes the Hope RFM95 to offer low-cost, LoRa radio transmission and a Wi-Fi/LoRa gateway.
-The RFM95W transceivers  feature  the  LoRaTM  long range modem that provides ultra-long range spread spectrum communication and high interference immunity whilst minimizing current consumption.
+This IoT-Bus module utilizes the Hope RFM95 to offer low-cost, LoRa radio transmission and a Wi-Fi/LoRa gateway. 
+It uses the correct 915 MHz rather than the 433 MHz european standard often found.
+The RFM95W transceivers feature the LoRa long range modem that provides ultra-long range spread spectrum 
+communication and high interference immunity whilst minimizing current consumption.
 
-Using Hope RF’s patented LoRaTM modulation technique RFM95W can achieve a sensitivity of over -148dBm using a low cost crystal and bill of materials. The high sensitivity combined with the integrated +20 dBm power amplifier yields  industry  leading  link  budget  making  it optimal for any application requiring range or robustness. LoRaTM also provides significant advantages in both blocking and selectivity over conventional modulation techniques, solving the traditional design compromise between range, interference immunity and energy consumption.
-These devices also support high performance (G)FSK modes for systems including WMBus, IEEE802.15.4g. The RFM95W deliver exceptional phase noise, selectivity, receiver linearity  and  IIP3  for  significantly lower  current consumption than competing devices.
+Using Hope RF’s patented LoRa modulation technique RFM95W can achieve a sensitivity of over -148dBm using a 
+low cost crystal and bill of materials. The high sensitivity combined with the integrated +20 dBm power 
+amplifier yields industry-leading link budget  making it optimal for any application requiring range or robustnes. 
+  
+LoRa™ also provides significant advantages in both blocking and selectivity over conventional modulation techniques, 
+solving the traditional design compromise between range, interference immunity and energy consumption.
+These devices also support high performance (G)FSK modes for systems including WMBus, IEEE802.15.4g. 
+The RFM95W deliver exceptional phase noise, selectivity, receiver linearity and IIP3 
+for significantly lower  current consumption than competing devices.
  
 Features of RF Transceiver LoRa Module RFM95W:
  
@@ -50,10 +59,7 @@ Potential Applications of the RF Transceiver Module RFM95W:
 * Industrial Monitoring and Control
 * Long range Irrigation Systems
 
-`See it in the oddWires store... <http://www.oddwires.com/iot-bus-lora/>`__
-
-.. contents:: Contents
-    :local:
+`Buy it in the oddWires store... <http://www.oddwires.com/iot-bus-lora/>`__
 
 Pins Used
 ---------
@@ -62,11 +68,48 @@ Pins Used
   :header-rows:  1
 
   *  - IOT-Bus Pin
-    - Description
-  *  - X
-    - TBD
+     - Description 
+  *  - 4
+     - DIO2
+  *  - 5
+     - SS
+  *  - 16
+     - DIO1
+  *  - 17
+     - LoRa RESET
+  *  - 18
+     - SCK
+  *  - 19
+     - MISO
+  *  - 23
+     - MOSI
+  *  - 32
+     - DIO5(J)
+  *  - 33
+     - DIO4(J)
+  *  - 34
+     - DIO3(J)
+  *  - 35
+     - DIO0(J)
+  *  - 3V3
+     - Power   
+  *  - GND
+     - Digital Ground
 
-.. begin_platforms
+.. note:: LoRa cannot be used at the same time as CAN Bus.     
+
+Schematic
+---------
+
+.. image:: ../_static/iot-bus-lora-v1.0-schematic.png
+    :align: left
+    :alt: IoT-Bus Io Schematic
+    :scale: 10%
+    :target: ../_static/iot-bus-lora-v1.0-schematic.png
+
+.. raw:: html
+  
+    <p style="clear: both;">     
 
 Platforms
 ---------
@@ -74,10 +117,10 @@ Platforms
     :header-rows:  1
 
     *  - Name
-      - Description
+       - Description
 
     *  - :ref:`platform_espressif32`
-      - Espressif Systems is a privately held fabless semiconductor company. They provide wireless communications and Wi-Fi chips which are widely used in mobile devices and the Internet of Things applications.
+       - Espressif Systems is a privately held fabless semiconductor company. They provide wireless communications and Wi-Fi chips which are widely used in mobile devices and the Internet of Things applications.
 
 Frameworks
 ----------
@@ -85,12 +128,12 @@ Frameworks
     :header-rows:  1
 
     *  - Name
-      - Description
+       - Description
 
     *  - :ref:`framework_arduino`
-      - Arduino Wiring-based Framework allows writing cross-platform software to control devices attached to a wide range of Arduino boards to create all kinds of creative coding, interactive objects, spaces or physical experiences.
+       - Arduino Wiring-based Framework allows writing cross-platform software to control devices attached to a wide range of Arduino boards to create all kinds of creative coding, interactive objects, spaces or physical experiences.
 
     *  - :ref:`framework_espidf`
-      - Espressif IoT Development Framework. Official development framework for ESP32.
+       - Espressif IoT Development Framework. Official development framework for ESP32.
 
   

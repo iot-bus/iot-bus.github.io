@@ -13,12 +13,10 @@ Relay
   
     <p style="clear: both;">     
 
-This IoT-Bus module is a 110V, 10A maximum AC relay board in the IoT-Bus form factor.
+This is an opto-isolated relay board driven by a single digital pin.
+It is a 110V, 10A maximum AC relay board in the IoT-Bus form factor.
 
-`See it in the oddWires store... <http://www.oddwires.com/iot-bus-relay/>`__
-
-.. contents:: Contents
-    :local:
+`Buy it in the oddWires store... <http://www.oddwires.com/iot-bus-relay/>`__
 
 Pins Used
 ---------
@@ -28,10 +26,21 @@ Pins Used
 
   * - IOT-Bus Pin
     - Description
-  * - 17
+  * - 17 
     - Relay
 
-.. begin_platforms
+Schematic
+---------
+
+.. image:: ../_static/iot-bus-relay-v1.0-schematic.png
+    :align: left
+    :alt: IoT-Bus Io Schematic
+    :scale: 50%
+    :target: ../_static/iot-bus-relay-v1.0-schematic.png
+
+.. raw:: html
+  
+    <p style="clear: both;">     
 
 Platforms
 ---------

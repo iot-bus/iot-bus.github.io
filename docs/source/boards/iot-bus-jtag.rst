@@ -16,13 +16,16 @@ JTAG
 This IoT-Bus module provides JTAG debugging for the
 :ref:`iot-bus-io` and :ref:`iot-bus-proteus`
 boards (can be used with other boards too, see wiring connections below).
-The board uses the FT232H to provide a USB controller with JTAG
-support. Both debugging and flashing is possible using this port.
 
-`See it in the oddWires store... <http://www.oddwires.com/iot-bus-esp32-jtag/>`__
+Both the Io and Proteus processor boards can accept a specially designed JTAG board offering 
+hardware debugging. Our JTAG board is based on the FT232H and it enables comprehensive JTAG debugging support. 
+You can use OpenOCD and GDB in combination to use it but our recommendation is to use PlatformIO. 
+PlatformIO has taken away all the hard work of configuring OpenOCD and GDB. You simply select it is your debugging choice as described 
+`here <https://docs.platformio.org/en/latest/plus/debug-tools/iot-bus-jtag.html>`_. 
+Take a look at how easy it is to use with `PlatformIO's Unified Debugger <https://docs.platformio.org/en/latest/plus/debugging.html>`_. 
+Just plug it in and start debugging! No more printing to the terminal!
 
-.. contents:: Contents
-    :local:
+`Buy it in the oddWires store... <http://www.oddwires.com/iot-bus-esp32-jtag/>`__
 
 PlatformIO Configuration
 ------------------------
@@ -40,37 +43,37 @@ platformio.ini:
 Pins Used
 ---------
 
-You only need to make any connections if you are using the JTAG modules outside of the IoT-BUs system.
-
 .. list-table::
   :header-rows:  1
 
   * - IOT-Bus JTAG Pin
     - Board JTAG Pin
-    - Description
-  * - 2
-    - VCC
+  * - 3V3
     - Positive Supply Voltage — Power supply for JTAG interface drivers
-  * - 1
-    - GND
-    - Digital ground
+  * - GND
+    - GND - Digital Ground    
   * - 12
-    - TDI
-    - Test Data In pin
+    - TDI - Test Data In pin   
   * - 14
-    - TMS
-    - Test Mode State pin
+    - TMS - Test Mode State pin  
   * - 15
-    - TCK
-    - JTAG Return Test ClocK
+    - TCK - JTAG Return Test Clock    
   * - 13
-    - TDO
-    - Test Data Out pin
-  * - 3
+    - TDO - Test Data Out pin   
+  * - EN
     - RESET
-    - Connect this pin to the (active low) reset input of the target CPU
 
-.. begin_platforms
+
+Schematic
+---------
+
+.. image:: ../_static/iot-bus-jtag-v1.0-schematic.png
+    :align: left
+    :alt: IoT-Bus Io Schematic
+    :scale: 10%
+    :target: ../_static/iot-bus-jtag-v1.0-schematic.png
+
+Click image to enlarge.
 
 Platforms
 ---------

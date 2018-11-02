@@ -13,13 +13,14 @@ Io
   
     <p style="clear: both;">
 
-This IoT-Bus module is the foundation of the IoT-Bus system.
-`See it in the oddWires store... <https://www.oddwires.com/io/>`__
+Very small and breadboard-friendly with option of male, female or both (stackable headers). Includes a dual-core 240 MHz ESP32 with 
+WiFi and Bluetooth. You can use the WiFi both in station (device) mode and access point mode. It includes traditional Bluetooth as well as BLE 4.0. 
 
-.. contents:: Contents
-    :local:
+On-board is a 3.3V regulator and a battery charging device that enabled you to switch between using USB or battery power. The battery
+is automatically charged in the USB is plugged in. A status light shows if it is charging or fully charged. All ESP32 pins bar the flash pins are exposed 
+and available for your use.
 
-
+`Buy it in the oddWires store... <https://www.oddwires.com/io/>`__
 
 Pins Used
 ---------
@@ -32,7 +33,21 @@ Pins Used
   * - 5
     - On-board LED
 
-.. begin_platforms
+.. note:: Pin 5 is the default SS for the vSPI interface and provided you are not using them at the same time it will work just fine for either purpose.
+
+Schematic
+---------
+
+.. image:: ../_static/iot-bus-io-v1.0d-schematic.png
+    :align: left
+    :alt: IoT-Bus Io Schematic
+    :scale: 10%
+    :target: ../_static/iot-bus-io-v1.0d-schematic.png
+
+.. raw:: html
+  
+    <p style="clear: both;">     
+
 
 Platforms
 ---------
