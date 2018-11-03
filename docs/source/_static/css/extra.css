@@ -1,12 +1,12 @@
 
-div.logo {
+div.iotbuslogo {
   display: block;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-img.logo {
+img.iotbuslogo {
   padding-left: 100px;
 }
 
