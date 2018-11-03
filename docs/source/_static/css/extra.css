@@ -1,7 +1,7 @@
 
 div.iotbuslogo {
   display: block;
-  position: fixed !important;
+  position: fixed;
   top: 0;
   width: 100%;
 }
