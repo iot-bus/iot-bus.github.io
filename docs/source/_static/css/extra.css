@@ -26,3 +26,7 @@ dl:after {content:"" !important;
   display:table !important;
   clear:both !important;
 }
+
+body {
+	padding-top: 52px !important;
+}
