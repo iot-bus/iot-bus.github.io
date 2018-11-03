@@ -1,14 +1,14 @@
 {% extends "!footer.html" %}
 
 {% block extrafooter %}
-<link rel="stylesheet" href="{{ pathto('_static/css/extra.css', 1) }}" type="text/css" />
+<link rel="stylesheet" href="{{ pathto('_static/css/custom.css', 1) }}" type="text/css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script>
   var logoHTML = '\
     <div class="iotbuslogo" style="">\
       <a href="https://oddWires.com" title="oddWires">\
-      	<img class="iotbuslogo" src="_static/oddWires-Logo-7-Transparent.png" height=50>\
+      	<img class="iotbuslogo" src="{{ pathto('_static/oddWires-Logo-7-Transparent.png', 1) }}" height=50>\
       </a>\
     </div>'
   ;
