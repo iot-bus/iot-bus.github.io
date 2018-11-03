@@ -27,4 +27,6 @@ dl:after {content:"" !important;
   clear:both !important;
 }
 
-
+.wy-side-nav-search{
+	position: fixed
+}	
