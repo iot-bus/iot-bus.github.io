@@ -7,7 +7,7 @@ div.iotbuslogo {
 }
 
 img.iotbuslogo {
-  padding-left: 100px;
+  padding-left: 100px !important;
 }
 
 dt {
