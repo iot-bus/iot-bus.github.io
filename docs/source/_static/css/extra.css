@@ -28,5 +28,5 @@ dl:after {content:"" !important;
 }
 
 .wy-side-nav-search{
-	position: fixed
+	position: fixed !important;
 }	
