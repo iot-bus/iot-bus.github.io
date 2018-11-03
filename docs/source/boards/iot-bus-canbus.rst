@@ -35,6 +35,16 @@ Pins Used
 
 .. note:: CAN Bus cannot be used at the same time as LoRa. 
 
+Libraries
+---------
+
+.. list-table::
+    :header-rows:  1
+
+    *  - Name
+       - Description
+
+
 Schematic
 ---------
 

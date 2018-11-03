@@ -35,6 +35,18 @@ Pins Used
   * - GND
     - Ground  
 
+Libraries
+---------
+
+.. list-table::
+    :header-rows:  1
+
+    *  - Name
+       - Description
+    *  - lib1
+       - desc   
+
+
 Schematic
 ---------
 

@@ -96,7 +96,17 @@ Pins Used
   *  - GND
      - Digital Ground
 
-.. note:: LoRa cannot be used at the same time as CAN Bus.     
+.. note:: LoRa cannot be used at the same time as CAN Bus.    
+
+Libraries
+---------
+
+.. list-table::
+    :header-rows:  1
+
+    *  - Name
+       - Description
+
 
 Schematic
 ---------
