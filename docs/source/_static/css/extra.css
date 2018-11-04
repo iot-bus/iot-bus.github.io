@@ -31,6 +31,6 @@ dl:after {content:"" !important;
 	position: fixed !important;
 }	
 
-wy-menu-vertical{
-	padding-top = 120px;
+wy-menu{
+	padding-top: 120px;
 }
