@@ -49,12 +49,12 @@ And MicroPython is a great implementation of python for the embedded environment
 So if you are already familiar with python that's a great way to leverage the IoT-Bus system. 
 We'll show you later in this section how to get started with it.
 
-moddable
+Moddable
 --------
 
 Javascript is another great alternative. It's not only used in front-end code, there are 
 dedicated servers for it and a whole development infrastructure that has sprung up around it.
-And moddable is the company that just "does javascript right'. We'll show you later in this section how to get started with it.
+And Moddable is the company that just "does javascript right'. We'll show you later in this section how to get started with it.
 
 MicroBlocks
 ------------
