@@ -13,6 +13,7 @@
         - getting started with esp-idf
         - getting started with moddable
         - getting started with micropython
+        - getting started with mozilla
     - tutorials
         - base
         - mozilla
@@ -23,7 +24,6 @@
         - schematic issues
         - include lora in collage?
         - compare against adafruit docs
-
 ..
     To Do (but not open):    
     - Alexa example
@@ -49,7 +49,21 @@ Welcome to oddWires IoT-Bus
  
    iot-bus-pinout
 
-   iot-bus-getting-started
+.. toctree::   
+   :caption: Getting Started with IoT-Bus
+   :maxdepth: 1   
+
+   getting-started/iot-bus-getting-started
+   
+   getting-started/iot-bus-getting-started-with-platformio
+
+   getting-started/iot-bus-getting-started-with-arduino
+
+   getting-started/iot-bus-getting-started-with-esp-idf
+
+   getting-started/iot-bus-getting-started-with-micro-python
+
+   getting-started/iot-bus-getting-started-with-moddable
 
 .. toctree::
     :caption: Boards
@@ -82,6 +96,14 @@ Welcome to oddWires IoT-Bus
     :maxdepth: 1
 
     examples/index
+
+.. toctree::
+   :caption: Mozilla-IoT Tutorials
+   :maxdepth: 1
+
+   tutorials/iot-bus-mozilla-led
+   tutorials/iot-bus-mozilla-dht11
+   tutorials/iot-bus-mozilla-relay    
 
 .. toctree::
     :caption: Mozilla IoT Examples
