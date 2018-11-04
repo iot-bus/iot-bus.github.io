@@ -21,7 +21,9 @@ Finally, we plug in an IoT-Bus processor and run the Blink example.
     
     a. Open the Blink example from the Examples menu. It looks like this:
 
-    code-block: c++
+    .. code-block: c++
+
+        Some code
 
 
     b. ...
