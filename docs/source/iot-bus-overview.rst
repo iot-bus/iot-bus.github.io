@@ -36,15 +36,15 @@ IoT-Bus System
 *	Plug and Play, Expandable
 *	Powerful 240MHz, 32-bit Processor with 4Mb of Flash Memory
 *	Multiple Form Factor Main Boards (Io, Proteus) 
-*	Connected in Many Ways (Wi-Fi, Bluetooth, BLE 4.0. LoRa and Canbus available options)
+*	Connected in Many Ways (Wi-Fi, Bluetooth, BLE 4.0. LoRa and CAN Bus are available options)
 *	Integrated 2.4" Touch TFT QVGA Display Available 
-* Solderable Prototype Board with Controller
+*   Solder-able Prototype Board with Controller
 *	IOT-Ready, Relay and Motor Controller
 *	Multiple open platforms
-*	Supports C++, Micropython and javascript
+*	Supports C++, MicroPython and javascript
 
 At the heart of the system is an ESP32 processor providing two SPI and an I2C interface with plenty of general purpose I/O. 
-The Espressif ESP-WROOM-32 has been selected as the microcontroller enabling very low-cost deployment of production IoT devices. 
+The Espressif ESP-WROOM-32 has been selected as the micro-controller enabling very low-cost deployment of production IoT devices. 
 It offers 240Mhz, 32-bit processing with 4MB of flash as standard.
 
 The first controller boards drive relays and motors and there are a wide range of connectivity options including

@@ -7,9 +7,9 @@ Iot-Bus Examples Index
     Get started with the ubiquitous Blink and flash the on-board LED.
 
 `Hello World <examples-hello-world.html>`_
-    A simple WiFi example that starts up a webserver and responds to HTTP requests.
+    A simple WiFi example that starts up a web-server and responds to HTTP requests.
 
-`Canbus <examples-canbus.html>`_
+`CAN Bus <examples-canbus.html>`_
     How to send and receive data using CAN Bus. 
 
 `Relay <examples-relay.html>`_

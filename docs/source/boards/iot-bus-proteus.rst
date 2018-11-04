@@ -15,7 +15,7 @@ Proteus
 
 This board is larger and designed to make it possible to add your own circuitry to make a complete IoT solution on one board.
 It includes a dual-core 240 MHz ESP32 with WiFi and Bluetooth. You can use the WiFi both in station (device) mode and access point mode. 
-It includes traditional Bluetooth as well as BLE 4.0. On-board is a 3.3V regulator and a battery charging device that enabled you 
+It includes traditional Bluetooth as well as BLE 4.0. On-board is a 3.3V regulator and a battery charging device that enables you 
 to switch between using USB or battery power. 
   
 The battery is automatically charged in the USB is plugged in. A status light shows if it is charging or fully charged. All ESP32 pins bar the flash pins are exposed 

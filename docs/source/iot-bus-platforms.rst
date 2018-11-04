@@ -8,13 +8,13 @@ Platforms
 Espressif32
 ===========
 
-ESP-WROOM32 Wifi Bluetooth Combo Module
+ESP-WROOM32 WiFi Bluetooth Combo Module
 
 .. image:: _static/esp32.png
 
-The ESP-WROOM-32 Wifi Bluetooth combo module is ultra high performance and ultra low-power consumption FCC-approved (2AC7Z-ESPWROOM32) Wi-Fi and Bluetooth combo wireless platform based on ESPRESSIF ESP32 chipset. It integrates a dual-core processor, 448 KByte ROM,520 KByte SRAM,16 KByte SRAM in RTC, 802.11 b/g/n/e/I Wi-Fi, Bluetooth v4.2 BR/EDR & BLE, clocks & Times, abundant peripheral Interfaces and security mechanism.
+The ESP-WROOM-32 WiFi Bluetooth combo module is ultra high performance and ultra low-power consumption FCC-approved (2AC7Z-ESPWROOM32) Wi-Fi and Bluetooth combo wireless platform based on ESPRESSIF ESP32 chipset. It integrates a dual-core processor, 448 KByte ROM,520 KByte SRAM,16 KByte SRAM in RTC, 802.11 b/g/n/e/I Wi-Fi, Bluetooth v4.2 BR/EDR & BLE, clocks & Times, abundant peripheral Interfaces and security mechanism.
 
-The ESP-WROOM-32 Wifi Bluetooth combo module provides SDK Firmware for fast on-line programming and open source toolchains based on GCC for development support. It is designed for Generic low power IoT sensor hub, loggers, video steaming for camera, Wi-Fi & Bluetooth enabled devices, Home automation and mesh network applications, aimed at makers, hardware engineers, software engineers and solution provides. ESP32 is a single chip 2.4 GHz Wi-Fi and Bluetooth combo chip designed with TSMC ultra low power 40 nm technology. It is designed and optimized for the best power performance, RF performance, robustness, versatility, features and reliability, for a wide variety of applications, and different power profiles.
+The ESP-WROOM-32 WiFi Bluetooth combo module provides SDK Firmware for fast on-line programming and open source toolchains based on GCC for development support. It is designed for Generic low power IoT sensor hub, loggers, video steaming for camera, Wi-Fi & Bluetooth enabled devices, Home automation and mesh network applications, aimed at makers, hardware engineers, software engineers and solution provides. ESP32 is a single chip 2.4 GHz Wi-Fi and Bluetooth combo chip designed with TSMC ultra low power 40 nm technology. It is designed and optimized for the best power performance, RF performance, robustness, versatility, features and reliability, for a wide variety of applications, and different power profiles.
 
 ESP32 is the most integrated solution for Wi-Fi + Bluetooth applications in the industry with less than 10 external components. ESP32 integrates the antenna switch, RF balun, power amplifier, low noise receive amplifier, filters, and power management modules. As such, the entire solution occupies minimal Printed Circuit Board (PCB) area. ESP32 is designed for mobile, wearable electronics, and Internet of Things (IoT) applications. It has many features of the state-of-the-art low power chips, including fine resolution clock gating, power modes, and dynamic power scaling. 
 
@@ -26,7 +26,7 @@ Core
       • 448 KByte ROM
       • 520 KByte SRAM
       • 16 KByte SRAM in RTC.
-      • QSPI can connect up to 4* Flash/SRAM, each flash should be less than 16 Mbytes.
+      • QSPI can connect up to 4* Flash/SRAM, each flash should be less than 16 MBytes.
       • Supply Voltage: 2.2V~3.6V
  
 WiFi
@@ -36,7 +36,7 @@ WiFi
       • WMM-PS, UAPSD
       • MPDU and A-MSDU aggregation
       • Block ACK
-      • Fragmentation and defragmentation
+      • Fragmentation and de-fragmentation
       • Automatic Beacon monitoring/scanning
       • 802.11 i security features: pre-authentication and TSN
       • Wi-Fi Protected Access (WPA)/WPA2/WPA2-Enterprise/Wi-Fi Protected Setup (WPS)

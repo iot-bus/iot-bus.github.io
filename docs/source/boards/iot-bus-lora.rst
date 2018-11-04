@@ -23,7 +23,7 @@ Using Hope RF’s patented LoRa modulation technique RFM95W can achieve a sensit
 low cost crystal and bill of materials. The high sensitivity combined with the integrated +20 dBm power 
 amplifier yields industry-leading link budget  making it optimal for any application requiring range or robustnes. 
   
-LoRa™ also provides significant advantages in both blocking and selectivity over conventional modulation techniques, 
+LoRa also provides significant advantages in both blocking and selectivity over conventional modulation techniques, 
 solving the traditional design compromise between range, interference immunity and energy consumption.
 These devices also support high performance (G)FSK modes for systems including WMBus, IEEE802.15.4g. 
 The RFM95W deliver exceptional phase noise, selectivity, receiver linearity and IIP3 
@@ -31,18 +31,18 @@ for significantly lower  current consumption than competing devices.
  
 Features of RF Transceiver LoRa Module RFM95W:
  
-* LoRaTM Modem.
+* LoRa Modem.
 * 915 MHz
 * 168 dB maximum link budget.
 * +20 dBm - 100 mW constant RF output vs. V supply.
 * +14 dBm high efficiency PA.
-* Programmable bit rate up to 300 kbps.
+* Programmable bit rate up to 300 Kbps.
 * High sensitivity: down to -148 dBm.
 * Bullet-proof front end: IIP3 = -12.5 dBm.
 * Excellent blocking immunity.
 * Low RX current of 10.3 mA, 200 nA register retention.
 * Fully integrated synthesizer with a resolution of 61 Hz.
-* FSK, GFSK, MSK, GMSK, LoRaTM and OOK modulation.
+* FSK, GFSK, MSK, GMSK, LoRa and OOK modulation.
 * Built-in bit synchronizer for clock recovery.
 * Preamble detection.
 * 127 dB Dynamic Range RSSI.
