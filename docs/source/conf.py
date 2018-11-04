@@ -88,7 +88,7 @@ html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
 
 def setup(app):
-    app.add_stylesheet('_static/css/extra.css')
+    app.add_stylesheet('css/extra.css')
 
 
 # Custom sidebar templates, must be a dictionary that maps document names
