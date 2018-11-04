@@ -11,17 +11,19 @@ img.iotbuslogo {
 }
 
 dt {
-    float: left !important;
+	float: left !important;
     width: 20% !important;
     text-align: right !important;
     padding: .25em !important;
     clear: left !important;
 }
+
 dd {
     float: left !important;
     width: 70% !important;
     padding: .25em 0 !important;
 }
+
 dl:after {content:"" !important;
   display:table !important;
   clear:both !important;
