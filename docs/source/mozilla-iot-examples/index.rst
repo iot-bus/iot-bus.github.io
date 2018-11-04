@@ -37,6 +37,7 @@ The typical platformio.ini for mozilla-iot contains:
     lib_deps = ArduinoJson
             https://github.com/me-no-dev/ESPAsyncWebServer
             https://github.com/mozilla-iot/webthing-arduino
+            
 
 If you are using a display, this would be the platformio.ini required:
 
