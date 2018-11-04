@@ -31,11 +31,9 @@ release = u'latest'
 # -- Read the Docs configuration ---------------------------------------------------
 
 html_theme_options = {
-    'logo_only': False,
     'display_version': False,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
-    'vcs_pageview_mode': '',
     # Toc options
     'collapse_navigation': True,
     'sticky_navigation': True,
