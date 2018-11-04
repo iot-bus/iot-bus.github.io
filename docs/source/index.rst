@@ -61,6 +61,8 @@ Welcome to oddWires IoT-Bus
 
    getting-started/iot-bus-getting-started-with-esp-idf
 
+   getting-started/iot-bus-getting-started-with-mozilla
+
    getting-started/iot-bus-getting-started-with-micro-python
 
    getting-started/iot-bus-getting-started-with-moddable
@@ -101,7 +103,6 @@ Welcome to oddWires IoT-Bus
    :caption: Mozilla-IoT Tutorials
    :maxdepth: 1
 
-   tutorials/iot-bus-mozilla-led
    tutorials/iot-bus-mozilla-dht11
    tutorials/iot-bus-mozilla-relay    
 

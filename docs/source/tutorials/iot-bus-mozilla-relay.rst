@@ -1,4 +1,4 @@
 .. _iot-bus-mozilla-relay:
 
-Creating a Mozilla "Thing" - Relay Controller
-=============================================
+Creating a Mozilla IoT "Thing" - Relay Controller
+=================================================

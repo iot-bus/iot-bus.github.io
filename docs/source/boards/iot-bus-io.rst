@@ -34,7 +34,7 @@ Pins Used
     - On-board LED
 
 .. note:: Pin 5 is the default SS for the vSPI interface and provided you are not using 
-them at the same time it will work just fine for either purpose.
+  them at the same time it will work just fine for either purpose.
 
 Schematic
 ---------
