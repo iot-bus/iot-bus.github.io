@@ -1,6 +1,6 @@
 .. _iot-bus-getting-started:
 
-Getting Started
-===============
+Choosing a Platform and Framework
+=================================
 
 Here's where the getting started goes.
