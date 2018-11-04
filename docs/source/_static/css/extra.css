@@ -30,3 +30,7 @@ dl:after {content:"" !important;
 .wy-side-nav-search{
 	position: fixed !important;
 }	
+
+wy-menu-vertical{
+	padding-top = 120px;
+}
