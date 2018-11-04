@@ -5,7 +5,7 @@ IoT-Bus Pinout
 
 .. figure:: _static/pinout@0,5x.png
     :align: center
-    :alt: IoT-bus Pinout
+    :alt: IoT-Bus Pinout
     :figclass: align-center
     :target: _static/pinout.pdf
 
