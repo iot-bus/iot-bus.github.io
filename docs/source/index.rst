@@ -12,7 +12,7 @@
         - getting started with arduino
         - getting started with esp-idf
         - getting started with moddable
-        - getting started with micropython
+        - getting started with microPython
         - getting started with mozilla
     - tutorials
         - base
@@ -23,7 +23,7 @@
     - misc    
         - schematic issues
         - include lora in collage?
-        - compare against adafruit docs
+        - compare against Adafruit docs
 ..
     To Do (but not open):    
     - Alexa example
@@ -98,6 +98,15 @@ Welcome to oddWires IoT-Bus
     :maxdepth: 1
 
     examples/index
+
+    examples/iot-bus-blink
+    examples/iot-bus-hello-world
+    examples/iot-bus-display
+    examples/iot-bus-touch
+    examples/iot-bus-relay
+    examples/iot-bus-canbus
+    examples/iot-bus-lora
+    examples/iot-bus-motor
 
 .. toctree::
    :caption: Mozilla-IoT Tutorials

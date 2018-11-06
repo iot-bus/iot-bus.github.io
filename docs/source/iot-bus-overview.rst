@@ -18,14 +18,22 @@ A variety of programming languages, environments and frameworks that work right 
 supports most of them in a professional or serious educational or hobby environment. You can use either the esp-idf framework 
 for a professional multi-tasking system based on freeRTOS or the popular Arduino environment for simplicity.
 
-So take your choice! Other platforms include javascript by moddable, python by Micropython, or the mongoose server.
+So take your choice! Other platforms include javascript by `Moddable <http://www.moddable.com/>`_, the `Mongoose <https://cesanta.com/>`_ server or 
+python by `MicroPython <https://micropython.org/>`_. There's even a graphical way of programming IoT-Bus - `microBlocks <http://microblocks.fun/>`_. 
 
-.. figure:: _static/collage-latest-boards.jpg
+.. image:: _static/collage-latest-boards-2.jpg
     :align: center
     :alt: IoT-bus Boards
-    :figclass: align-center
+    :width: 100%   
 
-    Some IoT-Bus Boards
+.. image:: _static/iot-bus-display.jpg
+    :alt: 2.4" QVGA Touch Display
+    :width: 49%
+.. image:: _static/iot-bus-proteus.jpg
+    :alt: Proteus 
+    :width: 49%
+
+.. centered:: *Some IoT-Bus Boards*
 
 
 IoT-Bus System
@@ -78,7 +86,7 @@ Two main-board form-factors
   Very small and breadboard-friendly with option of male, female or both (stackable headers). Includes a dual-core 240 MHz ESP32 with 
   WiFi and Bluetooth. You can use the WiFi both in station (device) mode and access point mode. It includes traditional Bluetooth as well as BLE 4.0. 
   
-  On-board is a 3.3V regulator and a battery charging device that enabled you to switch between using USB or battery power. The battery
+  On-board is a 3.3V regulator and a battery charging device that enables you to switch between using USB or battery power. The battery
   is automatically charged in the USB is plugged in. A status light shows if it is charging or fully charged. All ESP32 pins bar the flash pins are exposed 
   and available for your use.
 
@@ -98,7 +106,7 @@ Two main-board form-factors
 `Proteus <boards/iot-bus-proteus.html>`_
   This board is larger and designed to make it possible to add your own circuitry to make a complete IoT solution on one board.
   It includes a dual-core 240 MHz ESP32 with WiFi and Bluetooth. You can use the WiFi both in station (device) mode and access point mode. 
-  It includes traditional Bluetooth as well as BLE 4.0. On-board is a 3.3V regulator and a battery charging device that enabled you 
+  It includes traditional Bluetooth as well as BLE 4.0. On-board is a 3.3V regulator and a battery charging device that enables you 
   to switch between using USB or battery power. 
   
   The battery
