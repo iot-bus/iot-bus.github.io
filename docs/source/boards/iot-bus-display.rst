@@ -71,6 +71,37 @@ Pins Used
   IRQ is not used by the forked version of the XPT2046 library freeing up pin 17.
   The current versions of the IoT-Bus CAN Bus and LoRa modules cannot be used with this display.  
 
+Libraries
+---------
+
+.. list-table::
+    :header-rows:  1
+
+    * - Name
+      - Description
+      - Framework
+
+    * - `Adafruit_ILI9341 <https://github.com/adafruit/Adafruit_ILI9341>`_
+      - Arduino
+      - Adafruit's ILI9341 library - use with Adafruit-GFX-Library.
+
+    * - `Adafruit-GFX-Library <https://github.com/adafruit/Adafruit-GFX-Library>`_
+      - Arduino
+      - Adafruit's general purpose graphics library.
+
+    * - `TFTeSPI <https://github.com/iot-bus/TFT_eSPI>`_
+      - Arduino
+      - Bodmer's TFT library has been forked to setup defaults.
+
+    * - `XPT2046_Touchscreen <https://github.com/iot-bus/XPT2046_Touchscreen>`_
+      - Arduino
+      - Fork of Paul Stoffgren's XPT2046_Touchscreen library.
+
+    * - `ESP32_TFT_library <https://github.com/loboris/ESP32_TFT_library>`_
+      - esp-idf
+      - loboris TFT library for ESP32
+
+
 Schematic
 ---------
 
@@ -81,25 +112,6 @@ Schematic
     :target: ../_static/iot-bus-tft-display-v1.0-schematic.png
 
 Click image to enlarge.      
-
-Libraries
----------
-
-.. list-table::
-    :header-rows:  1
-
-    * - Name
-      - Description
-      - Github Repository
-
-    * - TFTeSPI
-      - Bodmer's TFT library has been forked to setup correct user defaults.
-      - `TFTeSPI <https://github.com/iot-bus/TFT_eSPI>`_
-
-    * - XPT2046_Touchscreen
-      - Paul Stoffgren's XPT2046_Touchscreen library has been forked to disable interrupts and map raw points to 320 x 240.
-      - `XPT2046_Touchscreen <https://github.com/iot-bus/XPT2046_Touchscreen>`_     
-
 
 Platforms
 ---------

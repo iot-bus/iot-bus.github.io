@@ -105,7 +105,11 @@ Libraries
     :header-rows:  1
 
     *  - Name
+       - Framework
        - Description
+    *  - `arduino-Lora <https://github.com/sandeepmistry/arduino-LoRa>`_
+       - Arduino
+       - Sandeep Mistry's arduino-LoRa library
 
 
 Schematic

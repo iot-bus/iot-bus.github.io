@@ -1,41 +1,23 @@
 ..
     To Do:
-    - stacey's comments
     - kits - mozilla and a more general iot-bus kit or 2
-    - libraries
-        - arduino
-        - esp-idf
     - examples
         - base examples
         - esp-idf-examples
-    - getting started
-        - getting started with arduino
-        - getting started with esp-idf
-        - getting started with moddable
-        - getting started with microPython
-        - getting started with mozilla
     - tutorials
-        - base
         - mozilla
     - debugging with PlatformIO and JTAG
         - arduino
         - esp-idf    
     - misc    
         - schematic issues
-        - include lora in collage?
         - compare against Adafruit docs
-..
-    To Do (but not open):    
-    - Alexa example
-    - Google home example
-
 ..
    To Do Outside Document:    
     - front-page - marketing focused content
     - clean up oddWires site and make more marketing oriented & cross-reference docs
     - video
     - be able to select boards in arduino
-    - base examples on github
 
 
 Welcome to oddWires IoT-Bus 

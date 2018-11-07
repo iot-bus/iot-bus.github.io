@@ -42,9 +42,11 @@ Libraries
     :header-rows:  1
 
     *  - Name
+       - Framework
        - Description
-    *  - lib1
-       - desc   
+    *  - `Adafruit_Motor_Shield_V2_Library <https://github.com/adafruit/Adafruit_Motor_Shield_V2_Library>`_
+       - Arduino
+       - Adafruit V2 Motor Shield library    
 
 
 Schematic

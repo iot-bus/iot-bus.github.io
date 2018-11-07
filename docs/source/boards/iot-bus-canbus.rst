@@ -42,7 +42,14 @@ Libraries
     :header-rows:  1
 
     *  - Name
+       - Framework
        - Description
+    *  - `Arduino-CAN <https://github.com/sandeepmistry/arduino-CAN>`_
+       - Arduino
+       - Sandeep Mistry's Arduino-CAN library
+    *  - `Arduino-OBD2 <https://github.com/sandeepmistry/arduino-OBD2>`_
+       - Arduino
+       - Sandeep Mistry's Arduino-OBD2 library requires Arduino-CAN 
 
 
 Schematic
