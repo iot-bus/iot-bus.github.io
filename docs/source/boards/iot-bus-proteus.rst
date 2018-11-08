@@ -20,6 +20,16 @@ to switch between using USB or battery power.
   
 The battery is automatically charged in the USB is plugged in. A status light shows if it is charging or fully charged. All ESP32 pins bar the flash pins are exposed 
 and available for your use. 
+
+.. image:: ../_static/iot-bus-proteus-annotated.jpeg
+    :align: left
+    :alt: Proteus
+    :scale: 50%
+    :target: http://www.oddwires.com/proteus-iot-bus-esp32-microprocessor-wi-fi-and-bluetooth-with-prototype-board-form-factor/
+
+.. raw:: html
+  
+  <p style="clear: both;">  
   
 The board includes a large prototyping area that includes room for traditional DIP and through-hole components as well 
 as SMD parts such as SOIC and  SOT-23. A user LED and switch is included but not connected to any pins so you can use them how you wish. Two level shifters are included 

@@ -31,7 +31,7 @@ PlatformIO Configuration
 ------------------------
 
 You can configure the debugging tool using the debug_tool option in
-platformio.ini. If you are using a an Io board (iotbusio in Platformio) or a Proteus board (iotbusproteus in PlatformIO) 
+platformio.ini. If you are using an Io board (iotbusio in Platformio) or a Proteus board (iotbusproteus in PlatformIO) 
 then you do not need to explicitly set debug_tool as it will be set implicitly:
 
 .. code-block:: ini
