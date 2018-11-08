@@ -5,7 +5,7 @@
 
 .. image:: ../_static/iot-bus-display.jpg
     :align: left
-    :alt: Io
+    :alt: IoT-Bus Display
     :scale: 50%
     :target: ../_static/iot-bus-display.jpg
 .. raw:: html
@@ -15,7 +15,16 @@
 This a nice 2.4" 320x240 QVGA TFT Touch Display offering plug and play display output and 
 touch sensing together with a 4-bit SDMMC SD Card. We picked 2.4" over 2.8" as it has a crisper 
 display at 320 x 240 resolution and its slightly smaller size helps in IoT applications. Designed primarily for 
-development use it has an IoT-Bus socket at the side for easy access.  
+development use it has an IoT-Bus socket at the side for easy access. Here's the back view:
+
+.. image:: ../_static/iot-bus-display-back.jpg
+    :align: left
+    :alt: IoT-Bus Display
+    :scale: 50%
+    :target: ../_static/iot-bus-display-back.jpg
+.. raw:: html
+  
+    <p style="clear: both;">  
 
 `Buy it in the oddWires store... <http://www.oddwires.com/iot-bus-qvga-2-4-tft-touch-display/>`__
 
