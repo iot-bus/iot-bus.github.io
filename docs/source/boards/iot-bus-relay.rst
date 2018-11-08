@@ -7,8 +7,7 @@ Relay
     :align: left
     :alt: Io
     :scale: 50%
-    :target: http://www.oddwires.com/iot-bus-relay/
-
+    :target: ../_static/iot-bus-relay.jpg
 .. raw:: html
   
     <p style="clear: both;">     

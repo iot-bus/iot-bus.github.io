@@ -7,7 +7,7 @@ LoRa
     :align: left
     :alt: Io
     :scale: 50%
-    :target: http://www.oddwires.com/iot-bus-lora/
+    :target: ../_static/iot-bus-lora.jpg
 
 .. raw:: html
   

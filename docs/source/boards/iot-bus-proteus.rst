@@ -7,7 +7,7 @@ Proteus
     :align: left
     :alt: Proteus
     :scale: 50%
-    :target: http://www.oddwires.com/proteus-iot-bus-esp32-microprocessor-wi-fi-and-bluetooth-with-prototype-board-form-factor/
+    :target: ../_static/iot-bus-proteus.jpg
 
 .. raw:: html
   
@@ -23,10 +23,9 @@ and available for your use.
 
 .. image:: ../_static/iot-bus-proteus-annotated.jpeg
     :align: left
-    :alt: Proteus
-    :width: 100%
+    :alt: Proteus Annotated
     :scale: 50%
-    :target: http://www.oddwires.com/proteus-iot-bus-esp32-microprocessor-wi-fi-and-bluetooth-with-prototype-board-form-factor/
+    :target: ../_static/iot-bus-proteus-annotated.jpeg
 
 .. raw:: html
   

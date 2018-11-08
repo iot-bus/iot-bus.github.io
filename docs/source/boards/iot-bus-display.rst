@@ -7,8 +7,7 @@
     :align: left
     :alt: Io
     :scale: 50%
-    :target: http://www.oddwires.com/iot-bus-qvga-2-4-tft-touch-display/
-
+    :target: ../_static/iot-bus-display.jpg
 .. raw:: html
   
     <p style="clear: both;">  

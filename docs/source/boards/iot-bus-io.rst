@@ -7,7 +7,7 @@ Io
     :align: left
     :alt: Io
     :scale: 50%
-    :target: https://www.oddwires.com/io/
+    :target: ../_static/iot-bus-io.jpg
 
 .. raw:: html
   

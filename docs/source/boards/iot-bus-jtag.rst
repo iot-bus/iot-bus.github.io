@@ -7,7 +7,7 @@ JTAG
     :align: left
     :alt: Io
     :scale: 50%
-    :target: http://www.oddwires.com/iot-bus-esp32-jtag/
+    :target: ../_static/iot-bus-jtag.jpg
 
 .. raw:: html
   

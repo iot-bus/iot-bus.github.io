@@ -7,7 +7,7 @@ Motor
     :align: left
     :alt: Io
     :scale: 50%
-    :target: http://www.oddwires.com/iot-bus-motor-controller/
+    :target: ../_static/iot-bus-motor.jpg
 
 .. raw:: html
   

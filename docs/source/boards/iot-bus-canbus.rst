@@ -8,7 +8,7 @@ CAN Bus
     :alt: CAN Bus
     :scale: 50%
     :width: 100%
-    :target: http://www.oddwires.com/iot-bus-esp32-can-bus/
+    :target: ../_static/iot-bus-canbus.jpg
 
 .. raw:: html
   
