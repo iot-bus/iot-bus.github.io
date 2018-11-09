@@ -1,11 +1,13 @@
-.. _example-iot-bus-display:
+.. _example-iot-bus-touch-draw:
 
-Iot-Bus PaintDraw Example
+Iot-Bus Touch Draw Example
 =============================
 
 This example demonstrates the use of both the IoT-Bus Display and the touchscreen. 
-In this example we are using the TFT_eSPI and XPT2046_Touchscreen libraries. 
-You will find other examples that use Adafruit libraries that work in a very similar way.
+In this example we are using a forked version of Bodmer's `TFT_eSPI <https://github.com/iot-bus/TFT_eSPI>`_ library with User_Setup already setup for IoT-Bus Display which you can find here.  
+We are also using a forked version of Paul Stoffgren's `XPT2046_Touchscreen <https://github.com/iot-bus/XPT2046_Touchscreen>`_ library which has been enhanced to perform mapping of raw touch Data to screen coordinates. 
+It has also been modified to disable the PENIRQ line so that we use one less pin. 
+You will find other examples in the examples repository that use Adafruit libraries that work in a very similar way.
 
 .. code-block:: c++ 
 
@@ -49,7 +51,7 @@ in User_Setup.h which is part of the TFT_eSPI library.
     #define Y_MAX 3579
 
 These calibration values will vary from display to display. 
-You can use the drawcorners example to find out the values for each corner
+You can use the draw-corners example to find out the values for each corner
 and change them for your displays. The values here are likely to be OK for initial testing
 but you will get more accurate results by performing your own calibration.
 

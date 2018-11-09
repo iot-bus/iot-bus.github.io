@@ -7,6 +7,13 @@ These examples are designed to run on IoT-Bus boards by oddWires. In each case, 
 gateway running on a raspberry pi on the same Wi-Fi network. We will refer to a mozilla-iot thing as a Thing in this 
 document. To setup a gateway see 
 `this link <https://hacks.mozilla.org/2018/02/how-to-build-your-own-private-smart-home-with-a-raspberry-pi-and-mozillas-things-gateway/>`_. 
+You can find the examples on GitHub `here <https://github.com/iot-bus>`_. There are two repositories:
+
+`iot-bus-mozilla-iot-examples-platformio <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-platformio>`_
+    Examples in PlatformIo format. A platformio.ini file is included with library dependencies.
+
+`iot-bus-mozilla-iot-examples-arduino <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-arduino>`_
+    Examples in ino format. You will need to install required libraries separately.
 
 In each example you will have to enter your ssid and password within the main cpp file otherwise you will not reach the gateway. 
 You can find the code for all the examples on github `here <https://github.com/iot-bus/iot-bus-mozilla-iot-examples>`_.
@@ -17,10 +24,6 @@ You can find the code for all the examples on github `here <https://github.com/i
     const char* ssid = "........";
     const char* password = "........";
 
-These examples are structured for PlatformIO but can be run using the Arduino IDE by 
-renaming the source file as .ino and saving it in a folder of the same name. 
-If you run under Arduino you'll have to ensure each library is installed in the 
-"Arduino/Libraries" folder. You can find the library dependencies for each in the platformio.ini file. 
 The typical platformio.ini for mozilla-iot contains:
 
 .. code-block:: ini

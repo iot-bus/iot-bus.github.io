@@ -82,13 +82,30 @@ Welcome to oddWires IoT-Bus
 
     examples/index
 
-    examples/iot-bus-blink
-    examples/iot-bus-hello-world
-    examples/iot-bus-display
-    examples/iot-bus-relay
-    examples/iot-bus-canbus
-    examples/iot-bus-lora
-    examples/iot-bus-motor
+    examples/example-iot-bus-blink
+    examples/example-iot-bus-hello-world
+    examples/example-iot-bus-touch-draw
+    examples/example-iot-bus-relay
+    examples/example-iot-bus-canbus
+    examples/example-iot-bus-lora
+    examples/example-iot-bus-motor
+    examples/example-iot-bus-sdcard
+
+.. toctree::
+    :caption: Mozilla IoT Examples
+    :maxdepth: 1
+    
+    mozilla-iot-examples/index
+    mozilla-iot-examples/mozilla-iot-bus-touch-thing
+    mozilla-iot-examples/mozilla-iot-bus-led-thing
+    mozilla-iot-examples/mozilla-iot-bus-ledlamp-thing
+    mozilla-iot-examples/mozilla-iot-bus-relay-thing
+    mozilla-iot-examples/mozilla-iot-bus-relay-display-touch-thing
+    mozilla-iot-examples/mozilla-iot-bus-window-door-sensor-thing
+    mozilla-iot-examples/mozilla-iot-bus-dht11-thing
+    mozilla-iot-examples/mozilla-iot-bus-hcsr04-thing
+    mozilla-iot-examples/mozilla-iot-bus-hcsr501-pir-thing
+    mozilla-iot-examples/mozilla-iot-bus-calculator-thing
 
 .. toctree::
    :caption: Mozilla-IoT Tutorials
@@ -97,11 +114,6 @@ Welcome to oddWires IoT-Bus
    tutorials/iot-bus-mozilla-dht11
    tutorials/iot-bus-mozilla-relay    
 
-.. toctree::
-    :caption: Mozilla IoT Examples
-    :maxdepth: 1
-
-    mozilla-iot-examples/index
 
 .. toctree::
     :caption: Frameworks 
