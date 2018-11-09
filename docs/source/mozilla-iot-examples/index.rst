@@ -7,7 +7,7 @@ These examples are designed to run on IoT-Bus boards by oddWires. In each case, 
 gateway running on a raspberry pi on the same Wi-Fi network. We will refer to a mozilla-iot thing as a Thing in this 
 document. To setup a gateway see 
 `this link <https://hacks.mozilla.org/2018/02/how-to-build-your-own-private-smart-home-with-a-raspberry-pi-and-mozillas-things-gateway/>`_. 
-You can find the examples on GitHub `here <https://github.com/iot-bus>`_. There are two repositories:
+You can find the examples on GitHub at `IoT-Bus <https://github.com/iot-bus>`_. There are two repositories:
 
 `iot-bus-mozilla-iot-examples-platformio <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-platformio>`_
     Examples in PlatformIo format. A platformio.ini file is included with library dependencies.
@@ -66,15 +66,15 @@ you can include them here and PlatformIO will locate and install them.
 
 .. image:: ../_static/relay-on.jpg
 
-`LED Thing <IoT-Bus-LED_Thing.html>`_
+:ref:`LED Thing <mozilla-iot-bus-led-thing>`
     This example creates a Thing that enables the built-in LED on GPIO5 to be set through the mozilla-iot domain.
 
 
-`LED Lamp Thing <IoT-Bus-LEDLamp_Thing.html>`_
+:ref:`LED Lamp Thing <mozilla-iot-bus-ledlamp-thing>`
     This example creates a Thing that enables the status and brightness of the built-in LED on GPIO5 to be set through the mozilla-iot domain.
 
-`DHT11 Thing <IoT-Bus-DHT11_Thing.html>`_
-    This example creates a Thing that exposes termperature and humidity properties and also displays the temperature locally.
+:ref:`DHT11 Thing <mozilla-iot-bus-dht11-thing>`
+    This example creates a Thing that exposes temperature and humidity properties and also displays the temperature locally.
 
     Connect a DHT11 Temperature Sensor and run:
 
@@ -84,8 +84,8 @@ you can include them here and PlatformIO will locate and install them.
         VCC  -> VUSB (VIN is OK if using battery(3.7-42V) but not 3V3 as not high enough)
         GND  -> GND
 
-`HC-SR04 Thing <IoT-Bus_HC-SR04_Thing.html>`_
-    This example creates a Thing that exposes the current distance reading or the HC-SR04 ultransonic distance sensor and also displays the distance locally.
+:ref:`HC-SR04 Thing <mozilla-iot-bus-hcsr04-thing>`
+    This example creates a Thing that exposes the current distance reading or the HC-SR04 ultrasonic distance sensor and also displays the distance locally.
 
     Connect an HC-SR04 Ultrasonic Distance Sensor and run:
 
@@ -96,7 +96,7 @@ you can include them here and PlatformIO will locate and install them.
         VCC  -> VUSB
         GND  -> GND (VIN is OK if using battery(3.7-42V) but not 3V3 as not high enough)
 
-`HC-SR501 PIR Thing <IoT-HC-SR501_PIR_Thing.html>`_
+:ref:`HC-SR501 PIR Thing <mozilla-iot-bus-hcsr501-pir-thing>`
     This example creates a motion sensor Thing that triggers on movement. It sets the on-board LED on triggering and updates the mozilla-iot interface appropriately.
     Connect an HC-SR501 Passive Infrared Sensor or any similar device and run:
 
@@ -106,22 +106,22 @@ you can include them here and PlatformIO will locate and install them.
         VCC  -> VUSB (Typically VIN is OK if using battery(3.7-42V) but not 3V3 as not high enough)    
         GND  -> GND 
 
-`Touch Thing <IoT-Touch_Thing.html>`_
+:ref:`Touch Thing <mozilla-iot-bus-touch-thing>`
     This example creates a touch switch Thing that triggers when one of the capacitive touch pins on the ESP32 are touched. It sets the on-board LED on triggering and updates the mozilla-iot interface appropriately.
 
     Connect a wire to GPIO4 and run.   
 
-`Calculator Thing <IoT-Bus_Calculator_Thing.html>`_   
+:ref:`Calculator Thing <mozilla-iot-bus-calculator-thing>`   
     This example is a simple integer calculator that creates a Thing that exposes the two numbers, 
     the last function and the result. It requires the IoT-Bus display.
 
-`Door Sensor Thing <IoT-Bus_Window_Door_Sensor_Thing.html>`_   
-    This example shows how to use a typical magentic door sensor. Just connect one soide of the contacts to GPIO4 and the other to GND. When the contacts are open the door sensor will show open in the mozilla interface and when they are shut the door will show shut.
+:ref:`Door Sensor Thing <mozilla-iot-bus-window-door-sensor-thing>`  
+    This example shows how to use a typical magnetic door sensor. Just connect one side of the contacts to GPIO4 and the other to GND. When the contacts are open the door sensor will show open in the mozilla interface and when they are shut the door will show shut.
 
-`Relay Thing <IoT-Bus_Relay_Thing.html>`_   
+:ref:`Relay Thing <mozilla-iot-bus-relay-thing>`   
     This example uses an IoT-Bus relay board together with an IoT-Bus Io processor to expose the relay status 
     and to enable the user to change through your mozilla-iot domain. 
 
-`Relay Display & Touch Switch Thing <IoT-Bus_Relay_Thing_Display_Touch>`_ 
+:ref:`Relay Display & Touch Switch Thing <mozilla-iot-bus-relay-display-touch-thing>`
     In this second relay example the current status of the relay is also shown on the display. The touchscreen is enabled so it can be switched 
     on and off locally. The status will be reflected by mozilla-iot.
