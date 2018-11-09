@@ -2,7 +2,6 @@
     To Do:
     - kits - mozilla and a more general iot-bus kit or 2
     - examples
-        - base examples
         - esp-idf-examples
     - tutorials
         - mozilla
@@ -111,9 +110,10 @@ Welcome to oddWires IoT-Bus
    :caption: Mozilla-IoT Tutorials
    :maxdepth: 1
 
-   tutorials/iot-bus-mozilla-dht11
-   tutorials/iot-bus-mozilla-relay    
-
+   tutorials/index
+   tutorials/iot-bus-mozilla-led
+   tutorials/iot-bus-mozilla-touch-switch    
+   tutorials/iot-bus-mozilla-rules-engine    
 
 .. toctree::
     :caption: Frameworks 
