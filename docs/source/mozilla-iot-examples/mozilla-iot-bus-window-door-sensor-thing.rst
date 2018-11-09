@@ -18,7 +18,7 @@ IoT-Bus Window and Door Sensor Thing
     const char* ssid = "........";
     const char* password = "........";
 
-    // Uses a wondow/door sensor and turns on a LED when open
+    // Uses a window/door sensor and turns on a LED when open
     int ledPin = 5;    // choose the pin for the LED
     int sensorPin = 4; // choose the input pin - we'll use a pullup on this pin to keep high
                     // Connect one end of the door switch to this pin. 

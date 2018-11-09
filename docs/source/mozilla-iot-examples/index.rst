@@ -69,7 +69,6 @@ you can include them here and PlatformIO will locate and install them.
 :ref:`LED Thing <mozilla-iot-bus-led-thing>`
     This example creates a Thing that enables the built-in LED on GPIO5 to be set through the mozilla-iot domain.
 
-
 :ref:`LED Lamp Thing <mozilla-iot-bus-ledlamp-thing>`
     This example creates a Thing that enables the status and brightness of the built-in LED on GPIO5 to be set through the mozilla-iot domain.
 
