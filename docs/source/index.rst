@@ -8,7 +8,8 @@
         - mozilla
     - debugging with PlatformIO and JTAG
         - arduino
-        - esp-idf    
+        - esp-idf       
+    
     - misc    
         - schematic issues
         - compare against Adafruit docs
@@ -84,7 +85,6 @@ Welcome to oddWires IoT-Bus
     examples/iot-bus-blink
     examples/iot-bus-hello-world
     examples/iot-bus-display
-    examples/iot-bus-touch
     examples/iot-bus-relay
     examples/iot-bus-canbus
     examples/iot-bus-lora
