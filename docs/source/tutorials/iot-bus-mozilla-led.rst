@@ -85,17 +85,17 @@ Once the adapter has started it can be recognized by the gateway.
 
 .. code-block:: json
 
-{
-  "@context": "https://iot.mozilla.org/schemas/",
-  "@type": ["Light", "OnOffSwitch"],
-  "name":"LED",
-  "description": "LED",
-  "properties": {
-    "on": {
-      "@type": "OnOffProperty",
-      "type": "boolean",
-       "href": "/things/led/properties/on"
-    },
+    {
+    "@context": "https://iot.mozilla.org/schemas/",
+    "@type": ["Light", "OnOffSwitch"],
+    "name":"LED",
+    "description": "LED",
+    "properties": {
+        "on": {
+        "@type": "OnOffProperty",
+        "type": "boolean",
+        "href": "/things/led/properties/on"
+        },
 
 This json extract illustrates What is happening under the covers. The arduino-webthing library is turning 
 the definitions above into JSON when it is polled by the gateway. This json describes the 
