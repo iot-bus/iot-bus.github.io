@@ -29,7 +29,7 @@ will automatically be installed in your project.
 
 .. code-block:: c++
 
-    //TODO: Hardcode your wifi credentials here (and keep it private)
+    //TODO: Hardcode your WiFi credentials here (and keep it private)
     const char* ssid = ".........";
     const char* password = ".........";
 
@@ -127,7 +127,7 @@ because you can see exactly what will be provided to the gateway.
     }
     lastOn = on;
 
-in the loop function, the latest state of the adapter is obtained. If we had changed the state of the LED locally 
+In the loop function, the latest state of the adapter is obtained. If we had changed the state of the LED locally 
 we would need to call the update function to have it reflected through the gateway. We get that current value of the property ledOn.
 And we use it to set the value of the LED. if it has changed we print the changed value to the serial monitor.   
 
@@ -150,7 +150,10 @@ Your Thing should be found. Save it and click Done. You should now be able to cl
     :alt: Mozilla LED
     :width: 100%
 
-The LED should respond to you turning it off and on in the Mozilla IoT interface! See many other Mozilla IoT examples here.    
+The LED should respond to you turning it off and on in the Mozilla IoT interface! 
+There are lots more examples in the Github file you downloaded or cloned. 
+
+The full code is shown below.
 
 .. code-block:: c++
 
