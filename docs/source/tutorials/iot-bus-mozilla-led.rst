@@ -41,7 +41,15 @@ Enter your WiFi ssid and password so that the IoT-Bus board can access your WiFi
 
 The LED is connected to GPIO 5.
 
+.. code-block:: c++
+
     WebThingAdapter* adapter;
+
+This defines a pointer to a Mozilla-IoT adapter which is set when a new adapter is created in setup as below.  
+
+.. code-block:: c++
+
+    adapter = new WebThingAdapter("w25", WiFi.localIP());
 
 .. code-block:: c++
 
