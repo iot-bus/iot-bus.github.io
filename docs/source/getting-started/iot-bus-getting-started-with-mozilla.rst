@@ -7,18 +7,18 @@ You will need a Raspberry Pi an SD Card and an IoT-Bus Io board. If you buy a Mo
 
 1. Install and setup the Mozilla IoT gateway on a Raspberry Pi.
 
-2. Install your IDE. We are going to use PlatformIo. See the section on Getting Started with PlatformIO for details.
+2. Install your IDE. We are going to use PlatformIo. See the section on :ref:`Getting Started with PlatformIO <getting-started-with-platformio>` for details.
 
-3. Get the IoT-Bus examples from Github. Download or clone them from here. 
+3. Get the IoT-Bus examples from Github. Download or clone them from . 
 
 4. We are going to use the Arduino framework in conjunction with Mozilla IoT to turn the board LED on and off.
 
-If you didn't buy a Mozilla IoT get from oddWires which includes an Sd Card flashed with the Mozilla IoT Gateway you will need to download gateway image as a zip file from here. 
-Expand it and flash it onto an SD Card using a product like `etcher <https://www.balena.io/etcher/>`_. 
-
-
 Gateway First Time Setup
 ------------------------
+
+If you didn't buy a Mozilla IoT get from oddWires which includes an SD Card flashed with the Mozilla IoT Gateway 
+you will need to download gateway image as a zip file from `here <https://iot.mozilla.org/gateway/>`_. 
+Expand it and flash it onto an SD Card using a product like `etcher <https://www.balena.io/etcher/>`_. 
 
 Place it into your Raspberry Pi and power up. The image 
 is enabled for WiFi and will create an access point "Mozilla IoT Gateway". You can connect to that WiFi hot-spot with your laptop or 
