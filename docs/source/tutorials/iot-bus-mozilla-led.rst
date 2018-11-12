@@ -172,7 +172,7 @@ The full code is shown below.
     #include "Thing.h"
     #include "WebThingAdapter.h"
 
-    //TODO: Hardcode your wifi credentials here (and keep it private)
+    //TODO: Hard-code your WiFi credentials here (and keep it private)
     const char* ssid = ".........";
     const char* password = ".........";
 

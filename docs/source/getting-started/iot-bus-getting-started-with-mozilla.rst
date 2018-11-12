@@ -3,15 +3,9 @@
 Getting Started with Mozilla IoT
 ================================
 
-You will need a Raspberry Pi an SD Card and an IoT-Bus Io board. If you buy a Mozilla IoT Starter Kit from oddWires you will have everything you need. 
-
-1. Install and setup the Mozilla IoT gateway on a Raspberry Pi.
-
-2. Install your IDE. We are going to use PlatformIo. See the section on :ref:`Getting Started with PlatformIO <getting-started-with-platformio>` for details.
-
-3. Get the IoT-Bus examples from Github. Download or clone them from . 
-
-4. We are going to use the Arduino framework in conjunction with Mozilla IoT to turn the board LED on and off.
+This section of the documentation describes how to setup a gateway on a Raspberry Pi for the Mozilla-IoT platform.
+You will need a Raspberry Pi an SD Card and an IoT-Bus Io board. 
+If you buy a Mozilla IoT Starter Kit from oddWires you will have everything you need. 
 
 Gateway First Time Setup
 ------------------------
@@ -76,24 +70,3 @@ This will put all the attached adapters into pairing mode. Follow the instructio
 Devices that have been successfully paired with the gateway will appear in the add device 
 screen and you can give them a name of your choice before saving them on the gateway.
 
-Now let's create a Thing and add it to the gateway.
-
-Creating a Thing
-----------------
-
-From wherever you installed the IoT-Bus examples, open up the LED example, edit to to change the network *ssid* and *password*  and run it. When you click on the “+” icon in the lower right corner of the gateway screen the gateway should discover 
-the LED Thing. 
-
-.. image:: ../_static/mozilla_add_things.png
-    :align: center
-    :alt: Mozilla Add Things
-    :width: 100%
-
-Save it and click Done. You should now be able to click on the thing an get a display like this:
-
-.. image:: ../_static/mozilla_led.png
-    :align: center
-    :alt: Mozilla LED
-    :width: 100%
-
-The LED should respond to you turning it off and on in the Mozilla IoT interface! See many other Mozilla IoT examples here.    

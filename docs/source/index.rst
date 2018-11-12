@@ -1,24 +1,23 @@
 ..
     To Do:
     - kits - mozilla and a more general iot-bus kit or 2
-    - examples
-        - esp-idf-examples
-    - tutorials
-        - mozilla
-    - debugging with PlatformIO and JTAG
-        - arduino
-        - esp-idf       
+    - complete mozilla tutorials 
+    - more images     
     
     - misc    
         - schematic issues
         - compare against Adafruit docs
-..
+
+    - later
+        - esp-idf examples
+        - more on using JTAG and debugging    
+
    To Do Outside Document:    
     - front-page - marketing focused content
     - clean up oddWires site and make more marketing oriented & cross-reference docs
     - video
     - be able to select boards in arduino
-
+..
 
 Welcome to oddWires IoT-Bus 
 ===========================
