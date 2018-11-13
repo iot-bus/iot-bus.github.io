@@ -14,7 +14,7 @@ IoT-Bus Relay Thing
     This example code is in the public domain.
     */
 
-    //TODO: Hardcode your wifi credentials here (and keep it private)
+    //TODO: Hard-code your WiFi credentials here (and keep it private)
     const char* ssid = "........";
     const char* password = "........";
 

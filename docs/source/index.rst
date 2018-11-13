@@ -1,22 +1,26 @@
 ..
     To Do:
-    - kits - mozilla and a more general iot-bus kit or 2
-    - complete mozilla tutorials 
-    - more images     
+        - mozilla kits
+        - more general iot-bus kits
+        - Two images for the mozilla tutorials
+        - rules engine tutorial
+        - more images  
+        - front-page : marketing focused content   
     
-    - misc    
+    Misc    
         - schematic issues
         - compare against Adafruit docs
 
-    - later
+    Later
         - esp-idf examples
-        - more on using JTAG and debugging    
+        - google home example  
+        - alexa example
+        - AWS IoT example
+        - bluetooth examples  
 
    To Do Outside Document:    
-    - front-page - marketing focused content
-    - clean up oddWires site and make more marketing oriented & cross-reference docs
-    - video
-    - be able to select boards in arduino
+        - clean up oddWires site and make more marketing oriented & cross-reference docs
+        - be able to select boards in arduino
 ..
 
 Welcome to oddWires IoT-Bus 
@@ -47,6 +51,9 @@ Welcome to oddWires IoT-Bus
    getting-started/iot-bus-getting-started-with-micro-python
 
    getting-started/iot-bus-getting-started-with-moddable
+
+   getting-started/iot-bus-getting-started-with-microblocks
+
 
 .. toctree::
     :caption: Boards

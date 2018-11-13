@@ -150,7 +150,7 @@ Your Thing should be found. Save it and click Done. You should now be able to cl
     :width: 100%
 
 The LED should respond to you turning it off and on in the Mozilla IoT interface! 
-There are lots more examples in the Github file you downloaded or cloned. 
+There are lots more examples in PlatformIO format `here <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-platformio>`_ or in `Arduino format <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-arduino>`_. 
 
 The full code is shown below.
 

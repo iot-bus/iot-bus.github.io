@@ -18,14 +18,7 @@ Finally, we plug in an IoT-Bus processor and run the Blink example.
     Open Boards Manager from Tools > Board menu and install esp32 platform (select ESP32 Dev Module from Tools > Board menu after installation).
 
 3. Run the Blink example
-    
-    a. Open the Blink example from the Examples menu. It looks like this:
 
-    .. code-block: c++
-
-        Some code
-
-
-    b. ...
-
-The other way to use the Arduino framework is to use PlatformIO. See Getting Started with PlatformIO for details.    
+    Download the IoT-Bus examples from `here <https://github.com/iot-bus/iot-bus-examples-arduino>`_.    
+    Then open the iot-bus-blink example and run. You'll see the on-board LED blink once a second.
+s
