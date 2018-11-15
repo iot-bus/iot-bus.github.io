@@ -10,4 +10,29 @@
     .wy-table-responsive {
        overflow: visible !important;
     }
+
+   /* Sidebar header (and topbar for mobile) */
+   .wy-side-nav-search, .wy-nav-top {
+   background: #444444;
+   }
+   /* Sidebar */
+   .wy-nav-side {
+   background: #444444;
+   }
+
+   .wy-nav-content {
+      background: #ffffff;  
+   }
+
+   .wy-body-for-nav {
+      background: #FFFFFF;  
+   }
+
+   .wy-side-nav-search{
+      position: fixed !important;
+   }	
+   
+   .wy-menu{
+      padding-top: 120px !important;
+   }
  }

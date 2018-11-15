@@ -2,6 +2,7 @@
 
 {% block extrafooter %}
 <link rel="stylesheet" href="{{ pathto('_static/css/extra.css', 1) }}" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700%7CRaleway:400,400i,700,400,400i&amp;subset=greek,cyrillic-ext,latin-ext,cyrillic,latin,vietnamese,greek-ext" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script>
@@ -11,7 +12,7 @@
       	<img class="iotbuslogo" src="{{ pathto('_static/oddWires-Logo-7-Transparent.png', 1) }}" height=50>\
       </a>\
     </div>'
-  ;
+  ; 
 
   (function() {
     var logo = document.createElement('header');
@@ -27,5 +28,12 @@
 
   })();
 </script>
+<style>
+  body,input, select, textarea, button {font-family:'Raleway', 'sans-serif';color:#444444;background: #ffffff}
+input {font-family: Raleway, 'fontAwesome';}
+body {font-size:16px;}
+h1,h2,h3,h4,h5,h6 {font-family:'Source Sans Pro', 'sans-serif';}
+a {color:#666666;}
+</style> 
 {{ super() }}
 {% endblock %}
