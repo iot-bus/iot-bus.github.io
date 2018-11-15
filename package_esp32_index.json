@@ -12,12 +12,12 @@
           {
             "name": "esp32",
             "architecture": "esp32",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "category": "ESP32",
-            "url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.0/esp32-1.0.0.zip",
-            "archiveFileName": "esp32-1.0.0.zip",
-            "checksum": "SHA-256:94d586174f103e2014be590ab307c5cdda6fa2ec70204c7f121882ace5e05c80",
-            "size": "26381887",
+            "url": "https://iot-bus.com/esp32-1.0.0.zip",
+            "archiveFileName": "esp32-1.0.1.zip",
+            "checksum": "SHA-256:824162A1BB9544A8C50B56ABA260283733CBC4187676FBB3059965DD598C63D6",
+            "size": "27145341",
             "help": {
               "online": ""
             },
