@@ -1,6 +1,6 @@
 .. _example-iot-bus-relay:
 
-Iot-Bus Relay Example
+IoT-Bus Relay Example
 =====================
 
 It is very easy to use the IoT-Bus relay. Simply set the relay pin high to turn on the relay as the relay is active high. 

@@ -1,6 +1,6 @@
 .. _iot-bus-overview:
 
-Iot-Bus Overview
+IoT-Bus Overview
 ================
 
 The oddWires IoT-Bus system is based on a low-cost, open design that includes multiple main boards 

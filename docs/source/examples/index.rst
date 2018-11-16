@@ -1,6 +1,6 @@
 .. _example-iot-bus_index:
 
-Iot-Bus Examples Index
+IoT-Bus Examples Index
 ======================
 
 You can find the examples on the iot-bus `GitHub page <https://github.com/iot-bus>`_. The examples are in two repositories:

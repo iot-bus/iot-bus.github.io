@@ -1,6 +1,6 @@
 .. _example-iot-bus-canbus:
 
-Iot-Bus CAN Bus Example
+IoT-Bus CAN Bus Example
 =======================
 
 These two examples work together using Sandeep Mistry's excellent arduino-CAN library which can be 

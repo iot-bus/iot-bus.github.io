@@ -17,7 +17,7 @@ Thank you for choosing PlatformIO IDE for VSCode
 3. Install PlatformIO IDE.
 You can find details on using PlatformIO with the IoT-Bus Io board `here <https://docs.platformio.org/en/latest/boards/espressif32/iotbusio.html>`_.
 
-4. Git clone or download the Iot-Bus examples from `Github <https://github.com/iot-bus/iot-bus-examples-platformio>`.
+4. Git clone or download the IoT-Bus examples from `Github <https://github.com/iot-bus/iot-bus-examples-platformio>`.
 
 5. Plug in IoT-Bus Io. Open the iot-bus-blink example and run. Onboard LED should blink once a second. When you create a new PlatformIO application simply select the oddWires IoT-Bus Io as the board. 
 This will also ensure you have the correct default debugger when using the IoT-Bus JTAG board.

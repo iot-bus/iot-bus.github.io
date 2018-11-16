@@ -1,6 +1,6 @@
 .. _example-iot-bus-hello-world:
 
-Iot-Bus Hello World Example
+IoT-Bus Hello World Example
 ===========================
 
 This example shows the simplest way to create a web-server and uses a truly asynchronous approach. 

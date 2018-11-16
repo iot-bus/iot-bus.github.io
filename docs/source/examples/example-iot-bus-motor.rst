@@ -1,6 +1,6 @@
 .. _example-iot-bus-motor:
 
-Iot-Bus Motor Example
+IoT-Bus Motor Example
 =====================
 
 This example use the Adafruit_Motorshield library which you can find `here <https://github.com/adafruit/Adafruit_Motor_Shield_V2_Library>`_ 

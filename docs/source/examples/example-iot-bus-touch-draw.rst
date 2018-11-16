@@ -1,6 +1,6 @@
 .. _example-iot-bus-touch-draw:
 
-Iot-Bus Touch Draw Example
+IoT-Bus Touch Draw Example
 =============================
 
 This example demonstrates the use of both the IoT-Bus Display and the touchscreen. 

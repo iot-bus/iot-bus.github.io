@@ -1,6 +1,6 @@
 .. _example-iot-bus-sdcard:
 
-Iot-Bus SD_MMC Card Example
+T-Bus SD_MMC Card Example
 ===========================
 
 This example show how to test an SD Card on the IoT-Bus Display board.
