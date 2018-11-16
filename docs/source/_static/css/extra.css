@@ -29,10 +29,6 @@ dl:after {content:"" !important;
   clear:both !important;
 }
 
-.wy-side-nav-search{
-	position: fixed !important;
-}	
-
-.wy-menu{
-	padding-top: 120px !important;
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+  font-family: Raleway;
 }
