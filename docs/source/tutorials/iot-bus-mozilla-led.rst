@@ -5,11 +5,11 @@ LED Thing Tutorial
 
 If you haven't already installed your IDE do so now. We are going to use PlatformIo. 
 See the section on :ref:`Getting Started with PlatformIO <getting-started-with-platformio>` for details. 
-If you prefer to use Arduino you can follow the instruction :ref:`here <getting-started-with-arduino>`.
+If you prefer to use Arduino you can follow this:ref:`guide <getting-started-with-arduino>`.
 
-Get the IoT-Bus examples from Github. Download or clone the PlatformIO examples from 
-here `here <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-platformio>`_. 
-The Arduino examples can be found :ref:`here <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-arduino>`
+Get the IoT-Bus examples from Github. Download or clone the PlatformIO examples from this
+`location <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-platformio>`_. 
+The Arduino examples can be found on `GitHub <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-arduino>`_.
 
 This tutorial requires an IoT-Bus Io ESP32 processor board. Once running you will be able to control the 
 on-board LED on the IoT-Bus Io using the Mozilla-IoT browser interface. You will need to have installed the 
@@ -29,7 +29,7 @@ will automatically be installed in your project.
 
 .. code-block:: c++
 
-    //TODO: Hardcode your WiFi credentials here (and keep it private)
+    //TODO: Hard-code your WiFi credentials here (and keep it private)
     const char* ssid = ".........";
     const char* password = ".........";
 
@@ -55,7 +55,7 @@ This defines a pointer to a Mozilla-IoT adapter which is set when a new adapter 
 
     const char* ledTypes[] = {"OnOffSwitch", "led", nullptr};
     ThingDevice led("LED", "LED", ledTypes);
-    ThingProperty ledOn("on", "", BOOLEAN, "OnOffProperty");
+    ThingProperty ledOn("On", "", BOOLEAN, "OnOffProperty");
 
 These are the the lines of code that define the Mozilla-IoT Thing and its properties.
 
@@ -80,7 +80,8 @@ Officially these  are described as capabilities.  You can find the current list 
 This defines a property "on" which has a property type of OnOffProperty. Again, this is a predefined property type.     
 
 .. note:: There is no connection between the property and the device or adapter at this point. 
-Although there is no mention of an adapter here, it is an adapter that connects to a gateway and exposes its capabilities. 
+    Although there is no mention of an adapter here, it is an adapter that connects to a 
+    gateway and exposes its capabilities. 
 
 .. code-block:: c++
 
@@ -138,14 +139,14 @@ Creating a Thing
 
 Start up the previously installed and configured Mozilla-IoT gateway on your Raspberry Pi and look for this screen.
 
-.. image:: ../_static/mozilla_add_things.png
+.. image:: ../_static/mozilla-led-thing-scan.png
     :align: center
     :alt: Mozilla Add Things
     :width: 100%
 
 Your Thing should be found. Save it and click Done. You should now be able to click on the thing an get a display like this:
 
-.. image:: ../_static/mozilla_led.png
+.. image:: ../_static/mozilla-led-thing-display.png
     :align: center
     :alt: Mozilla LED
     :width: 100%

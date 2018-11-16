@@ -1,15 +1,9 @@
-..
-    To Do:
-        - mozilla kits
-        - more general iot-bus kits
-        - Two images for the mozilla tutorials
-        - rules engine tutorial
-        - more images  
-        - front-page : marketing focused content   
-    
+ ..      
+   
     Misc    
         - schematic issues
         - compare against Adafruit docs
+        - front-page : marketing focused content       
 
     Later
         - esp-idf examples
@@ -21,6 +15,7 @@
    To Do Outside Document:    
         - clean up oddWires site and make more marketing oriented & cross-reference docs
         - be able to select boards in arduino
+
 ..
 
 Welcome to oddWires IoT-Bus 
@@ -73,13 +68,7 @@ Welcome to oddWires IoT-Bus
 
     boards/iot-bus-canbus
 
-    boards/iot-bus-lora
-
-.. toctree::
-    :caption: Kits
-    :maxdepth: 1
-
-    kits/index    
+    boards/iot-bus-lora  
 
 .. toctree::
     :caption: Examples

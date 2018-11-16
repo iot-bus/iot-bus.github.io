@@ -1,6 +1,6 @@
 .. _example-iot-bus-blink:
 
-Iot-Bus Blink Example
+IoT-Bus Blink Example
 ======================
 
 This very simple example needs little explanation. The first line includes the Arduino framework.

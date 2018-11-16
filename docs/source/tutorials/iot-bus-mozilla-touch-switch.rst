@@ -5,11 +5,11 @@ Touch Switch Thing Tutorial
 
 If you haven't already installed your IDE do so now. We are going to use PlatformIo. 
 See the section on :ref:`Getting Started with PlatformIO <getting-started-with-platformio>` for details. 
-If you prefer to use Arduino you can follow the instruction :ref:`here <getting-started-with-arduino>`.
+If you prefer to use Arduino you can follow these :ref:`instructions <getting-started-with-arduino>`.
 
 Get the IoT-Bus examples from Github. Download or clone the PlatformIO examples from 
-here `here <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-platformio>`_. 
-The Arduino examples can be found :ref:`here <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-arduino>`
+here `GitHub <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-platformio>`_. 
+The Arduino examples can be found `on GitHub <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-arduino>`_.
 
 This tutorial requires an IoT-Bus Io ESP32 processor board and a simpler jumper lead connected to GPIO4. Once running you will be able to use a capacitive switch on a 
 GPIO pin on the IoT-Bus Io to be exposed to the Mozilla-IoT browser interface. Holding the jumper wire will cause the switch to trip. You will need to have installed the 
@@ -45,11 +45,6 @@ These define the input pin and the local LED to show the status.
 
 .. code-block:: c++
 
-    const char* sensorTypes[] = {"binarySensor", nullptr};
-    ThingDevice touch("Touch", "ESP32 Touch Input", sensorTypes);
-    ThingProperty touched("true", "", BOOLEAN, "BooleanProperty");
-    ThingPropertyValue sensorValue;
-
     WebThingAdapter* adapter;
 
 This defines a pointer to a Mozilla-IoT adapter which is set when a new adapter is created in setup as below.  
@@ -62,10 +57,9 @@ This defines a pointer to a Mozilla-IoT adapter which is set when a new adapter 
 
     const char* sensorTypes[] = {"binarySensor", nullptr};
     ThingDevice touch("Touch", "ESP32 Touch Input", sensorTypes);
-    ThingProperty touched("true", "", BOOLEAN, "BooleanProperty");
-    ThingPropertyValue sensorValue;
+    ThingProperty touched("Touched", "", BOOLEAN, "BooleanProperty");
 
-These are the the lines of code that define the Mozilla-IoT Thing and its properties.
+These are the the lines of code that define the Mozilla-IoT device "Touch" and its property "Touched".
 
 .. code-block:: c++
 
@@ -80,16 +74,17 @@ In this case it is a binarySensor.
     ThingDevice touch("Touch", "ESP32 Touch Input", sensorTypes);
 
 This line defines a touch switch named Touch. Note the reference to sensorTypes which is what actually 
-defines the device type or types. So we are saying Touch is a binarySensor. Officially these  are described as capabilities. You can find the current list available `here <https://iot.mozilla.org/schemas/>`_. 
+defines the device type or types. So we are saying Touch is a binarySensor. Officially these  are described as capabilities. 
+You can find the current list available `at this location <https://iot.mozilla.org/schemas/>`_. 
 
 .. code-block:: c++
 
-    ThingProperty touched("true", "", BOOLEAN, "BooleanProperty");
+    ThingProperty touched("Touched", "", BOOLEAN, "BooleanProperty");
 
-This defines a property "true" which has a property type of BooleanProperty. Again, this is a predefined property type.     
+This defines a property "Touched" which has a property type of BooleanProperty. Again, this is a predefined property type.     
 
 .. note:: There is no connection between the property and the device or adapter at this point. 
-Although there is no mention of an adapter here, it is an adapter that connects to a gateway and exposes its capabilities. 
+    Although there is no mention of an adapter here, it is an adapter that connects to a gateway and exposes its capabilities. 
 
 .. code-block:: c++
 
@@ -122,8 +117,8 @@ because you can see exactly what will be provided to the gateway.
     delay(300);
 
 .. note:: sensorValue must not be allocated on the stack. 
-It must be in a location that can be referred to asynchronously, so we have allocated it globally for simplicity. 
-You'll get a memory trap if you allocate it on the stack.   
+    It must be in a location that can be referred to asynchronously, so we have allocated it globally for simplicity. 
+    You'll get a memory trap if you allocate it on the stack.   
 
 In the main loop we read the touch value and check against a threshold. We could also change this to reflect a multi-level value 
 rather than a binary value if we wished. The ED and sensorValue are set to reflect the reading of T0 and the adapter is updated.
@@ -137,19 +132,20 @@ Creating a Thing
 
 Start up the previously installed and configured Mozilla-IoT gateway on your Raspberry Pi and look for this screen.
 
-.. image:: ../_static/mozilla_add_things.png
+.. image:: ../_static/mozilla-touch-scan.png
     :align: center
     :alt: Mozilla Add Things
     :width: 100%
 
 Your Thing should be found. Save it and click Done. You should now be able to click on the thing an get a display like this:
 
-.. image:: ../_static/mozilla_touch.png
+.. image:: ../_static/mozilla-touch-thing-display.png
     :align: center
     :alt: Mozilla LED
     :width: 100%
 
-The LED should respond to you turning it off and on in the Mozilla IoT interface! 
+The onboard LED will light when the wire is touched and turn off when the wire is released. At the same time the Mozilla IoT interface will 
+reflect the status of the wire whether touched or not. 
 There are lots more examples in PlatformIO format `here <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-platformio>`_ or in `Arduino format <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-arduino>`_. 
 
 The full code is shown below.
