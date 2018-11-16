@@ -1,5 +1,4 @@
  ..      
-   
     Misc    
         - schematic issues
         - compare against Adafruit docs
@@ -15,7 +14,6 @@
    To Do Outside Document:    
         - clean up oddWires site and make more marketing oriented & cross-reference docs
         - be able to select boards in arduino
-
 ..
 
 Welcome to oddWires IoT-Bus 
