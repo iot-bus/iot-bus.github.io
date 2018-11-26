@@ -1,209 +1,816 @@
 <!DOCTYPE html>
-<!-- Coming soon -->
-<html lang="en-US">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- SEO -->
-<title>IoT-Bus is coming soon!</title>
-<meta name="description" content="IoT-Bus is coming soon"/>
-<!-- og meta for facebook, googleplus -->
-<meta property="og:title" content="IoT-Bus is coming soon!"/>
-<meta property="og:description" content="IoT-Bus is coming soon"/>
-<meta property="og:url" content="http://iot-bus.com/2016/07/24/io-2/"/>
-<meta property="og:type" content="website" />
-<meta property="og:image" content=""/>
-<!-- twitter meta -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="IoT-Bus is coming soon!"/>
-<meta name="twitter:description" content="IoT-Bus is coming soon"/>
-<meta name="twitter:url" content="http://iot-bus.com/2016/07/24/io-2/"/>
-<meta name="twitter:image" content=""/>
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700%7CRaleway:400,400i,700,400,400i&amp;subset=greek,cyrillic-ext,latin-ext,cyrillic,latin,vietnamese,greek-ext" rel="stylesheet">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://iot-bus.com/style.css" type="text/css" media="all">
-<style>
-body,input, select, textarea, button {font-family:'Raleway', 'sans-serif';color:#999999;}
-input {font-family: Raleway, 'fontAwesome';}
-body {font-size:20px;}
-a {color:#999999;}
-input[type="submit"] {background-color: #e82e1e;}
-::-webkit-input-placeholder {color: hsl( 0, 0%, 80%);}
-::-moz-placeholder {color: hsl( 0, 0%, 80%);}
-:-ms-input-placeholder {color: hsl( 0, 0%, 80%);}
-::-moz-placeholder {color: hsl( 0, 0%, 80%);}
-.input-icon:before,input[type="email"],input[type="text"]{color: hsl( 0, 0%, 80%);}
-/* input[type="email"],input[type="text"] {border:1px solid hsl( 0, 0%, 80%);} */
-footer, footer a {color: hsl( 0, 0%, 80%);}
-.social-list.body a {background-color: #999999;}
-.social-list.body a:hover {background-color: #e82e1e;}
-.social-list.footer a:hover {color: #e82e1e;}
-.social-list.footer li:not(:last-of-type)::after {background-color: hsl( 0, 0%, 80%);}
-.inner-content p {line-height: 1.6; letter-spacing: 0px;font-weight:400;; }
-h1:not(.text-logo),h2, h3,h4,h5,h6,.text-logo-wrapper {font-size:2em;letter-spacing: 0px; font-weight:700;; }
-h1 { font-weight:700;;}
-</style>
-<!-- wp video shortcode -->
-<style>
-.wp-video {margin: 0 auto;}
-.wp-video-shortcode {max-width: 100%;}
-</style>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <!--Page Title-->
+    <title>oddWires IoT-Bus Home</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="iot-bus">
+    <meta name="description" content="iot iot-bus internet of things">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/oddWires-W-logo-sm-transparent_48x48.png" title="Favicon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
-<body id="body">
-<div id="background-wrapper">
-<div id="background-image" class="color loaded" style="background-color:#ffffff"></div> </div>
-<div class="inner-wrap">
-<div class="inner-content">
-<div class="logo-wrapper image"><img src="https://i2.wp.com/iot-bus.com/wp-content/uploads/2018/06/oddWires-Logo-7-Transparent.png?fit=1169%2C596" class="graphic-logo" alt="logo"></div><h2 class="cmp-title animated ">IoT-Bus opens the Internet of Things™</h2> 
-<div id="counter" data-date="1541980800">
-<div class="counter-wrap">
-<div class="inner-counter">
-<span id="counter-day">00</span>
-<p>days</p>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 </div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
 </div>
-<div class="counter-wrap">
-<div class="inner-counter">
-<span id="counter-hour">00</span>
-<p>hours</p>
+
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+                    <!--Logo-->
+                    <div id="logo">
+
+                        <!--Logo that is shown on the banner-->
+                        <img src="images/oddWires-Logo-7-Transparent-326A.png" id="banner-logo" alt="Landing Page"/>
+                        <!--End of Banner Logo-->
+
+                        <!--The Logo that is shown on the sticky Navigation Bar-->
+                        <img src="images/oddWires-Logo-7-Transparent-326A.png" id="navigation-logo" alt="Landing Page"/>
+                        <!--End of Navigation Logo-->
+
+                    </div>
+                    <!--End of Logo-->
+
+                    <aside>
+
+                        <!--Social Icons in Header-->
+                        <ul class="social-icons">
+                            <li>
+                                <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                                    <i class="fab fa-facebook-f fa-1x"></i><span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
+                                    <i class="fab fa-twitter fa-1x"></i><span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                                    <i class="fab fa-instagram fa-1x"></i><span>Instagram</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--End of Social Icons in Header-->
+
+                    </aside>
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="#banner">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#products">Products</a>
+                            </li>
+                            <li>
+                                <a href="#partners">Partners</a>
+                            </li>
+                            <li>
+                                <a href="#projects">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#pricing">Kits</a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Shop" href="https://www.oddwires.com/iot-bus/">Shop</a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="IoT-Bus Docs" href="https://docs.iot-bus.com">Docs</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>IoT-Bus Opens the Internet of Things</h1>
+                    <h2>IoT-Bus is the foundation of a range of highly cost-effective and compatible range of modules designed around the ESP32 240MHz Dual-core Processor with WiFi and Bluetooth.
+                        </h2>
+                </div>
+
+                <!--Call to Action-->
+                <a href="#" class="button">START CREATING TODAY</a>
+                <!--End Call to Action-->
+
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+        <!--Introduction-->
+        <section id="about" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>IoT-Bus</h3>
+                        <h2 class="section-title">Why you should use IoT-Bus for your next IoT Project</h2>
+                        <p class="section-subtitle">The oddWires IoT-Bus system is based on a low-cost, 
+                                open design around the Espressif ESP32 processor that is designed to be 
+                                "plug and play" and support multiple platforms and frameworks. 
+                                Works with Mozilla IoT, Alexa and Google Home. Use JTAG debugging straight out of the 
+                                box with no configuration using PlatformIO! Although IoT-Bus is very new, oddWires was established in 2012 
+                                and has over 15,000 customers in commerce, education and and the home!</p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-globe fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Open</h4>
+                            <p>The oddWires IoT-Bus system is highly cost-effective, 
+                                open design based on the 240 Mhz Dual-Core Espressif ESP32 with WiFi and Bluetooth. 
+                                Use IoT-Bus with Mozilla-IoT for a completely open approach to IoT.</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-play-circle fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Plug and Play</h4>
+                            <p>The initial release includes eight boards in an extensible format. Processor modules, controller modules, communications modules
+                                as well a QVGA 320x240 Touch-sensitive TFT Display and prototyping board are all included. 
+                            </p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-lock fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Secure</h4>
+                            <p>Secure boot, flash encryption, hardware acceleration for AES, Hash (SHA-2), RSA and ECC are all part of the firmware. 
+                                Run an OpenSSL server on IoT-Bus.</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-rocket fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Powerful Connectivity</h4>
+                            <p>IoT-Bus processor modules include WiFi and Bluetooth as standard with LoRa and CAN Bus available.</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of Introduction-->
+
+
+       <!--Gallery-->
+       <!-- 
+        <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
+                 data-featherlight-filter="a">
+
+                <a href="images/gallery-images/iot-bus-proteus-gallery.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                   data-wow-delay="0.1s"><img src="images/gallery-images/iot-bus-proteus-gallery.jpg" alt="Landing Page"/></a>
+                <a href="images/gallery-images/iot-bus-jtag.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                   data-wow-delay="0.3s"><img src="images/gallery-images/iot-bus-jtag.jpg" alt="Landing Page"/></a>
+                <a href="images/gallery-images/iot-bus-io.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                   data-wow-delay="0.5s"><img src="images/gallery-images/iot-bus-io.jpg" alt="Landing Page"/></a>
+                <a href="images/gallery-images/iot-bus-display-gallery.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                   data-wow-delay="1.1s"><img src="images/gallery-images/iot-bus-display-gallery.jpg" alt="Landing Page"/></a>
+                <a href="images/gallery-images/iot-bus-lora.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                   data-wow-delay="0.9s"><img src="images/gallery-images/iot-bus-lora.jpg" alt="Landing Page"/></a>
+                <a href="images/gallery-images/iot-bus-canbus.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                   data-wow-delay="0.7s"><img src="images/gallery-images/iot-bus-canbus.jpg" alt="Landing Page"/></a>
+                <a href="images/gallery-images/iot-bus-relay.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                   data-wow-delay="0.7s"><img src="images/gallery-images/iot-bus-relay.jpg" alt="Landing Page"/></a>   
+                <a href="images/gallery-images/iot-bus-motor.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                   data-wow-delay="0.7s"><img src="images/gallery-images/iot-bus-motor.jpg" alt="Landing Page"/></a>   
+
+        </aside>
+        -->
+        <!--End of Gallery-->
+
+        <!--Content Section-->
+        <div id="products" class="scrollto clearfix">
+
+            <div class="row no-padding-bottom clearfix">
+
+                <!--Content Left Side-->
+                <div class="col-3">
+                    <!--User Testimonial-->
+                    <blockquote class="testimonial text-right bigtest quote-block">
+                        <q>The smallest form factor processor module. The IoT-Bus IO is based on the Espressif 240 MHz Dual-Core ESP32 processor.
+                        </q>
+                    </blockquote>
+                    <!-- End of Testimonial-->
+
+                </div>
+                <!--End Content Left Side-->
+
+                <!--Content of the Right Side-->
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>The heart of the IoT-Bus system</h3>
+                        <h2 class="section-title">IoT-Bus Io</h2>
+                        <p class="section-subtitle">The heart of the IoT-Bus system. Very small and breadboard-friendly.          
+                        </p>
+                        <p>
+                        <a href="images/gallery-images/iot-bus-io.jpg-product" data-featherlight="image" class="product wow fadeIn"
+                    data-wow-delay="0.5s"><img src="images/gallery-images/iot-bus-io-product.jpg" alt="Landing Page"/></a>
+                        </p>
+                        <p>Come with with the option of male, female or both (stackable headers). 
+                            Includes a dual-core 240 MHz ESP32 with WiFi and Bluetooth. You can use the WiFi both in station 
+                            (device) mode and access point mode. It includes traditional Bluetooth as well as BLE 4.0.
+                        </p>
+                        <p>  
+                            On-board is a 3.3V regulator and a battery charging device that enables you to 
+                            switch between using USB or battery power. The battery is automatically charged in the USB is plugged in. 
+                            A status light shows if it is charging or fully charged. All ESP32 pins bar the flash pins are 
+                            exposed and available for your use.
+                        </p>
+                    </div>
+                <!--End Content Right Side-->
+            
+                </div>
+
+                <div class="col-3"></div>
+        
+            </div>
+
+            <div class="row no-padding-bottom clearfix">
+
+                    <!--Content Left Side-->
+                    <div class="col-3">
+                        <!--User Testimonial-->
+                        <blockquote class="testimonial text-right bigtest quote-block">
+                            <q>Perfect for testing, early deployment, college IoT projects. 
+                                The IoT-Bus Proteus is based on the Espressif 240 MHz Dual-Core ESP32 processor.
+                            </q>
+                        </blockquote>
+                        <!-- End of Testimonial-->
+    
+                    </div>
+                    <!--End Content Left Side-->
+    
+                    <!--Content of the Right Side-->
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>Get an IoT prototype out fast</h3>
+                            <h2 class="section-title">IoT-Bus Proteus</h2>
+                            <p class="section-subtitle">This board is larger and designed to make 
+                                it possible to add your own circuitry to make a complete IoT solution on one board.       
+                            </p>
+                            <p>
+                            <a href="images/gallery-images/iot-bus-proteus.jpg" data-featherlight="image" class="product wow fadeIn"
+                        data-wow-delay="0.5s"><img src="images/gallery-images/iot-bus-proteus.jpg" alt="Landing Page"/></a>
+                    </p>
+                    <p>The board includes a large prototyping area that 
+                            includes room for traditional DIP and through-hole components as well as SMD parts such as SOIC and SOT-23. 
+                            A user LED and switch is included but not connected to any pins so you can use them how you wish. 
+                            Two level shifters are included so you can interface with 5V devices.
+
+                                The Proteus includes both 3.3V and 5V rails. Both these rails are available whether powered by the USB 
+                                or the battery as the 5V is derived from the lower voltage.  </p>
+                    </div>
+                    <!--End Content Right Side-->
+                
+                </div>
+            </div>
+
+            <div class="row no-padding-bottom clearfix">
+
+                    <!--Content Left Side-->
+                    <div class="col-3">
+                        <!--User Testimonial-->
+                        <blockquote class="testimonial text-right bigtest quote-block">
+                            <q>Excellent touch-sensitive 2.4" TFT display with an IoT-Bus socket gives you a plug and play display.
+                            </q>
+                        </blockquote>
+                        <!-- End of Testimonial-->
+    
+                    </div>
+                    <!--End Content Left Side-->
+    
+                    <!--Content of the Right Side-->
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>Display</h3>
+                            <h2 class="section-title">IoT-Bus Display</h2>
+                            <p class="section-subtitle">2.4” 320x240 QVGA TFT Touch Display offering plug and play 
+                                display output and touch sensing together with a 4-bit SDMMC SD Card.      
+                            </p>
+                            <p>
+                            <a href="images/gallery-images/iot-bus-display.jpg" data-featherlight="image" class="product wow fadeIn"
+                        data-wow-delay="0.5s"><img src="images/gallery-images/iot-bus-display.jpg" alt="Landing Page"/></a>
+                    </p>
+                    <p>We picked 2.4” over 2.8” as it has a crisper display at 320 x 240 resolution and its slightly smaller size helps in IoT applications. 
+                        It has an IoT-Bus socket at the side for easy access.</p>
+                    </div>
+                    <!--End Content Right Side-->
+                
+                </div>
+            </div>
+
+
+            <div class="row no-padding-bottom clearfix">
+
+                    <!--Content Left Side-->
+                    <div class="col-3">
+                        <!--User Testimonial-->
+                        <blockquote class="testimonial text-right bigtest quote-block">
+                            <q>Stack the JTAG debugger, open up PlatformIO and debug. It's as simple as that! 
+                            </q>
+                        </blockquote>
+                        <!-- End of Testimonial-->
+    
+                    </div>
+                    <!--End Content Left Side-->
+    
+                    <!--Content of the Right Side-->
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>JTAG debugging without the hassle</h3>
+                            <h2 class="section-title">IoT-Bus JTAG</h2>
+                            <p class="section-subtitle">This IoT-Bus module provides JTAG debugging for the Io and Proteus boards.  
+                            </p>
+                            <p>
+                                <a href="images/gallery-images/iot-bus-jtag.jpg" data-featherlight="image" class="product wow fadeIn"
+                                data-wow-delay="0.5s"><img src="images/gallery-images/iot-bus-jtag.jpg" alt="Landing Page"/></a>
+                            </p>
+                            <p>Both the Io and Proteus processor boards can accept a specially designed JTAG board offering hardware debugging. 
+                                Our JTAG board is based on the FT232H and it enables comprehensive JTAG debugging support. You can use OpenOCD and GDB 
+                                in combination to use it but our recommendation is to use PlatformIO. PlatformIO has taken away all the hard work of configuring OpenOCD and GDB. 
+                                Just plug it in and start debugging!</p>
+                        </div>
+                    </div>
+            </div>                      
+            <!--End Content Right Side-->
+
+            <div class="row no-padding-bottom clearfix">
+
+                    <!--Content Left Side-->
+                    <div class="col-3">
+                        <!--User Testimonial-->
+                        <blockquote class="testimonial text-right bigtest quote-block">
+                            <q>CAN Bus speeds to 1 Mbps. Regular and extended packets supported. 
+                            </q>
+                        </blockquote>
+                        <!-- End of Testimonial-->
+    
+                    </div>
+                    <!--End Content Left Side-->
+    
+                    <!--Content of the Right Side-->
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>CAN Bus with ease</h3>
+                            <h2 class="section-title">IoT-Bus CAN Bus</h2>
+                            <p class="section-subtitle">The IoT-Bus CAN Bus module offers up to 1 Mbps transmission rate. 
+                                Both regular and extended packets are supported.
+                            </p>
+                            <p>
+                                <a href="images/gallery-images/iot-bus-canbus.jpg" data-featherlight="image" class="product wow fadeIn"
+                                data-wow-delay="0.5s"><img src="images/gallery-images/iot-bus-canbus.jpg" alt="Landing Page"/></a>
+                            </p>
+                            <p>The CAN protocol is a multi-master, multi-cast communication protocol with error detection/signalling and inbuilt message prioritization. 
+                                The CAN protocol is commonly used as a communication bus in automotive applications.
+                                </p>
+                                <p>Multi-master: Any node in a CAN bus is allowed initiate the transfer of data.
+                                </p>
+                                <p>Multi-cast: When a node transmits a message, all nodes are able to receive the message (broadcast). 
+                                </p>                                
+                            </p>
+                     </div>
+                    </div>
+            </div>                      
+            <!--End Content Right Side-->
+
+            <div class="row no-padding-bottom clearfix">
+
+                    <!--Content Left Side-->
+                    <div class="col-3">
+                        <!--User Testimonial-->
+                        <blockquote class="testimonial text-right bigtest quote-block">
+                            <q>LoRa's long range and low power requirements makes it perfect for many IoT applications. 
+                            </q>
+                        </blockquote>
+                        <!-- End of Testimonial-->
+    
+                    </div>
+                    <!--End Content Left Side-->
+    
+                    <!--Content of the Right Side-->
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>LoRa</h3>
+                            <h2 class="section-title">IoT-Bus LoRa</h2>
+                            <p class="section-subtitle">This IoT-Bus module utilizes the Hope RFM95 to offer 
+                                    low-cost, LoRa radio transmission and a Wi-Fi / LoRa gateway. Excellent for low data-rate applications.  
+                            </p>
+                            <p>
+                                <a href="images/gallery-images/iot-bus-lora.jpg" data-featherlight="image" class="product wow fadeIn"
+                                data-wow-delay="0.5s"><img src="images/gallery-images/iot-bus-lora.jpg" alt="Landing Page"/></a>
+                            </p>
+                            <p>The RFM95W transceivers feature the LoRa long range modem that provides ultra-long range spread spectrum communication 
+                                    and high interference immunity whilst minimizing current consumption.</p>
+    
+                                    <p>Using Hope RF’s patented LoRa modulation technique RFM95W can achieve a sensitivity of over -148dBm using a low cost crystal 
+                                        and bill of materials. The high sensitivity combined with the integrated +20 dBm 
+                                        power amplifier yields industry-leading link budget making it optimal for any application requiring range or robustness.
+                                    </p>
+                                    <p>
+                                        LoRa also provides significant advantages in both blocking and selectivity over conventional modulation techniques, 
+                                        solving the traditional design compromise between range, interference immunity and energy consumption. 
+                                    </p>       
+                              </div>
+                    </div>
+            </div>                      
+            <!--End Content Right Side-->    
+
+            <div class="row no-padding-bottom clearfix">
+
+                    <!--Content Left Side-->
+                    <div class="col-3">
+                        <!--User Testimonial-->
+                        <blockquote class="testimonial text-right bigtest quote-block">
+                            <q>Remote motor control made easy by IoT-Bus Motor. 
+                            </q>
+                        </blockquote>
+                        <!-- End of Testimonial-->
+    
+                    </div>
+                    <!--End Content Left Side-->
+    
+                    <!--Content of the Right Side-->
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>Powerful control in a small package</h3>
+                            <h2 class="section-title">IoT-Bus Motor</h2>
+                            <p class="section-subtitle">Control up to 4 DC motors or two bi-polar stepper motors in a very small form-factor.
+                            </p>
+                            <p>
+                                <a href="images/gallery-images/iot-bus-motor.jpg" data-featherlight="image" class="product wow fadeIn"
+                                data-wow-delay="0.5s"><img src="images/gallery-images/iot-bus-motor.jpg" alt="Landing Page"/></a>
+                            </p>
+                            <p>We've chosen to use I2C for the IoT-Bus Motor controller as it requires less pins than using the ESP32 PWM capabilities.</p>
+                        </div>
+                    </div>
+            </div>                      
+            <!--End Content Right Side-->        
+
+            <div class="row no-padding-bottom clearfix">
+
+                    <!--Content Left Side-->
+                    <div class="col-3">
+                        <!--User Testimonial-->
+                        <blockquote class="testimonial text-right bigtest quote-block">
+                            <q>IoT-Bus Relay makes it easy to control devices through Mozilla IoT, Alexa and Google Home.
+                            </q>
+                        </blockquote>
+                        <!-- End of Testimonial-->
+    
+                    </div>
+                    <!--End Content Left Side-->
+    
+                    <!--Content of the Right Side-->
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>Relay Controller</h3>
+                            <h2 class="section-title">IoT-Bus Relay</h2>
+                            <p class="section-subtitle">This is an opto-isolated relay board driven by a single digital pin. It is a 110V, 
+                                    10A maximum AC relay board in the IoT-Bus form factor.   
+                            </p>
+                            <p>
+                                <a href="images/gallery-images/iot-bus-relay.jpg" data-featherlight="image" class="product wow fadeIn"
+                                data-wow-delay="0.5s"><img src="images/gallery-images/iot-bus-relay.jpg" alt="Landing Page"/></a>
+                            </p>
+                            <p>Plug and play relay board with both normally open and normally closed connections.</p>
+                        </div>
+                    </div>
+            </div>                      
+            <!--End Content Right Side-->        
+ 
+
+
+        </div>
+        <!--End of Content Section-->        
+
+        <!--Content Section-->
+        <div id="partners" class="scrollto clearfix">
+
+            <div class="row no-padding-bottom clearfix">
+
+
+                <!--Content Left Side-->
+                <div class="col-3">
+                    <!--User Testimonial-->
+                    <blockquote class="testimonial text-right bigtest">
+                        <q>oddWires is delighted to be working with Mozilla to offer IoT Kits to enable anyone to get started with 
+                            Mozilla-IoT simply, quickly and cost-effectively.
+                        </q>
+                        <footer>— Ian Archbell, oddWires</footer>
+                    </blockquote>
+                    <!-- End of Testimonial-->
+
+                </div>
+                <!--End Content Left Side-->
+
+                <!--Content of the Right Side-->
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>WORKING TOGETHER</h3>
+                        <h2 class="section-title">IoT-Bus and Mozilla</h2>
+                        <p class="section-subtitle">Put the power and control into the hands of the people 
+                            who use IoT devices. oddWires and Mozilla are both committed to supporting open standards and frameworks.
+                        </p>
+                    </div>
+                    <p>Internet of Things (IoT) devices have become more popular over the last few years, 
+                        but there is no single standard for how these devices should talk to each other. 
+                        Most vendors are trying to own an ecosystem.
+                    </p>                        
+                    <p>If the future of connected IoT devices continues to involve proprietary solutions, then costs will stay high, 
+                        while the market remains fragmented and slow to grow. Consumers should not be locked into a specific product, 
+                        brand, or platform. This will only lead to paying premium prices for something as simple as a “smart light bulb”.
+                    </p>                                
+                    <p>We believe in Mozilla-IoT's approach to open IoT and we are partnering with Mozilla to offer IoT Kits 
+                        to quickly get creating your IoT solution. 
+                        
+                    </p>
+                    <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
+                    <a href="#" data-videoid="nODlPf9P3Vk" data-videosite="youtube" class="button video link-lightbox">
+                        WATCH VIDEO <i class="fa fa-play" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <!--End Content Right Side-->
+
+                <div class="col-3 more-padding">
+                    <img src="images/things_ui_screenshot.png" alt="Mozilla IoT"/>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--End of Content Section-->
+
+        <!--Clients-->
+        <section id="projects" class="scrollto clearfix">
+            <div class="row clearfix">
+
+                <div class="col-3">
+
+                    <div class="section-heading">
+                        <h3>GET GOING</h3>
+                        <h2 class="section-title">Things You Can Do</h2>
+                        <p class="section-subtitle">Smart Home. Smart Lighting. Smart Appliances. Smart Cooking. Smart Irrigation. Smart Growing. Smart Tracking.
+                            Remote security and control. Environmental monitoring and control.
+                            Home and industrial automation. If you can imagine it, you can do it.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <a href="http://docs.iot-bus.com/en/latest/mozilla-iot-examples/index.html" title="Remotely turn on a lamp" class="col-3" target="_blank">
+                        <i class="fa fa-lightbulb-o fa-5x"></i>
+                    </a>
+                    <a href="http://docs.iot-bus.com/en/latest/mozilla-iot-examples/index.html" title="Adjust a lamp's brightness" class="col-3" target="_blank">
+                        <i class="fa fa-adjust fa-5x"></i>
+                    </a>                    
+                    <a href="http://docs.iot-bus.com/en/latest/mozilla-iot-examples/index.html" title="Create a smart switch" class="col-3" target="_blank">
+                        <i class="fa fa-power-off fa-5x"></i>
+                    </a>
+                    <a href="http://docs.iot-bus.com/en/latest/mozilla-iot-examples/index.html" title="Get a reading from a remote thermometer" class="col-3" target="_blank">
+                        <i class="fa fa-thermometer-half fa-5x"></i>
+                    </a>
+                    <a href="http://docs.iot-bus.com/en/latest/mozilla-iot-examples/index.html" title="Get an indication of a door or window opening" class="col-3" target="_blank">
+                        <i class="fa fa-door-open fa-5x"></i>
+                    </a>
+                    <a href="http://docs.iot-bus.com/en/latest/mozilla-iot-examples/index.html" title="Turn something on and off with a relay" class="col-3" target="_blank">
+                        <i class="fa fa-plug fa-5x"></i>
+                    </a>
+                    <a href="http://docs.iot-bus.com/en/latest/mozilla-iot-examples/index.html" title="Get a distance measurement remotely" class="col-3" target="_blank">
+                        <i class="fa fa-volume-down fa-4x"></i>
+                        <i class="fa fa-volume-up fa-4x"></i>
+                    </a>
+                    <a href="http://docs.iot-bus.com/en/latest/mozilla-iot-examples/index.html" title="Detect a person moving" class="col-3" target="_blank">
+                        <i class="fa fa-user fa-5x"></i>
+                    </a>
+                    <a href="http://docs.iot-bus.com/en/latest/mozilla-iot-examples/index.html" title="Create a remote touch-switch" class="col-3" target="_blank">
+                        <i class="fa fa-fingerprint fa-5x"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <!--End of Clients-->
+
+        <!--Pricing Tables-->
+        <section id="pricing" class="secondary-color text-center scrollto clearfix ">
+            <div class="row clearfix">
+
+                <div class="section-heading">
+                    <h3>YOUR CHOICE</h3>
+                    <h2 class="section-title">IoT-Bus Starter Kits</h2>
+                </div>
+
+                <!--Pricing Block-->
+                <div class="pricing-block featured col-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="pricing-block-content">
+                        <h3>Mozilla IoT Kit</h3>
+                        <p class="pricing-sub">Instant Mozilla IoT Kit</p>
+                        <div class="pricing">
+                            <div class="price"><span>$</span>39</div>
+                            <p>Low-cost way to get started with Mozilla IoT if you already have a Raspberry Pi</p>
+                        </div>
+                        <ul>
+                            <li>IoT-Bus Io</li>
+                            <li>Multiple sensors and relay</li>
+                            <li>10 Examples</li>
+                            <li>Tutorials</li>
+                            <li>Everything you need</li>
+                        </ul>
+                        <a href="#" class="button">BUY TODAY</a>
+                    </div>
+                </div>
+                <!--End Pricing Block-->
+                
+                <!--Pricing Block-->
+                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="pricing-block-content">
+                        <h3>IoT-Bus Pro Kit</h3>
+                        <p class="pricing-sub">IoT-Bus Pro Kit</p>
+                        <div class="pricing">
+                            <div class="price"><span>$</span>79</div>
+                            <p>Great starter kit for IoT-Bus with lots of sensors and examples</p>
+                        </div>
+                        <ul>
+                            <li>IoT-Bus Io</li>
+                            <li>Wide range of sensors and components</li>
+                            <li>20 Examples</li>
+                            <li>Tutorials</li>
+                            <li>Everything you need</li>
+                        </ul>
+                        <a href="#" class="button">BUY TODAY</a>
+                    </div>
+                </div>
+                <!--End Pricing Block-->
+
+                <!--Pricing Block-->
+                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="pricing-block-content">
+                        <h3>Mozilla IoT Kit and Gateway</h3>
+                        <p class="pricing-sub">Complete Mozilla IoT Solution</p>
+                        <div class="pricing">
+                            <div class="price"><span>$</span>99</div>
+                            <p>Everything you need to get started with Mozilla IoT</p>
+                        </div>
+                        <ul>
+                            <li>IoT-Bus Io</li>
+                            <li>Multiple sensors, relay and Raspberry Pi</li>
+                            <li>Many Examples</li>
+                            <li>Tutorials</li>
+                            <li>Everything you need</li>
+                        </ul>
+                        <a href="#" class="button">BUY TODAY</a>
+                    </div>
+                </div>
+                <!--End Pricing Block-->
+
+            </div>
+        </section>
+        <!--End of Pricing Tables-->
+
+    </main>
+    <!--End Main Content Area-->
+
+
+    <!--Footer-->
+    <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+
+            <p id="copyright" class="col-2">Copyright 2018 <a href="https://www.shapingrain.com">oddWires</a></p>
+
+            <!--Social Icons in Footer-->
+            <ul class="col-2 social-icons">
+                <li>
+                    <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                        <i class="fab fa-facebook-f fa-1x"></i><span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
+                        <i class="fab fa-twitter fa-1x"></i><span>Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                        <i class="fab fa-instagram fa-1x"></i><span>Instagram</span>
+                    </a>
+                </li>
+            </ul>
+            <!--End of Social Icons in Footer-->
+        </div>
+    </footer>
+    <!--End of Footer-->
+
 </div>
-</div>
-<div class="counter-wrap">
-<div class="inner-counter">
-<span id="counter-minute">00</span>
-<p>minutes</p>
-</div>
-</div>
-<div class="counter-wrap">
-<div class="inner-counter">
-<span id="counter-second">00</span>
-<p>seconds</p>
-</div>
-</div>
-</div>
-<div class="content">
-<p>IoT-Bus is coming here soon! Right now, you can buy IoT-Bus boards at <a href="http://www.oddwires.com">oddWires</a>.</p>
-</div>
-<form id="subscribe-form" method="post" class="cmp-subscribe">
-<div class="cmp-form-inputs">
-<input type="hidden" id="save_options_field" name="save_options_field" value="d6f6cb4637" /><input type="hidden" name="_wp_http_referer" value="/" />
-<input type="email" id="email-subscribe" name="email" placeholder="Insert your email address." required>
-<input type="submit" id="submit-subscribe" value="Submit">
-<div style="display: none;">
-<input type="text" name="form_honeypot" value="" tabindex="-1" autocomplete="off">
-</div>
-<div id="subscribe-response"></div>
-<div id="subscribe-overlay"></div>
-</div>
-<div class="cmp-form-notes">
-<p>Keep up to date with IoT-Bus!</p>
-</div>
-</form>
-<script>
-var ajaxurl = "http://iot-bus.com/wp-admin/admin-ajax.php";
-function AJAXform( formID, buttonID, resultID, emailID, firstnameID, lastnameID, formMethod = 'POST' ){
-var selectForm = document.getElementById(formID); // Select the form by ID.
-var selectButton = document.getElementById(buttonID); // Select the button by ID.
-var selectResult = document.getElementById(resultID); // Select result element by ID.
-var emailInput = document.getElementById(emailID); // Select email input by ID.
-var firstnameInput = document.getElementById(firstnameID); // Select firstname input by ID.
-var lastnameInput = document.getElementById(lastnameID); // Select lastname input by ID.
-var firstname;
-var lastname;
-function XMLhttp(){
-var httpRequest = new XMLHttpRequest();
-httpRequest.onreadystatechange = function(){
-if ( this.readyState == 4 && this.status == 200 ) {
-result = JSON.parse( this.responseText );
-selectResult.innerHTML = result.message; // Display the result inside result element.
-emailInput.value = '';
-selectForm.classList.add('-subscribed');
-if ( result.status == 1 ) {
-selectForm.classList.remove('-subscribe-failed');
-selectForm.classList.add('-subscribe-successful');
-} else {
-selectForm.classList.add('-subscribe-failed');
-}
-}
-};
-firstname = ( firstnameInput == null ) ? '' : firstnameInput.value;
-lastname = ( lastnameInput == null ) ? '' : lastnameInput.value;
-httpRequest.open(formMethod, ajaxurl, true);
-httpRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-httpRequest.send('action=niteo_subscribe&ajax=true&form_honeypot=&email=' + emailInput.value + '&firstname=' + firstname + '&lastname=' + lastname);
-}
-selectButton.onclick = function(){ // If clicked on the button.
-if ( emailInput.value != '' ) {
-XMLhttp();
-}
-}
-selectForm.onsubmit = function(){ // Prevent page refresh
-return false;
-}
-}
-/* Usage */
-window.addEventListener("load",function(event) {
-AJAXform( 'subscribe-form', 'submit-subscribe', 'subscribe-response', 'email-subscribe', 'firstname-subscribe', 'lastname-subscribe', 'POST' );
-});
-</script>
-</div>
-<footer>
-<div class="social-wrapper">
-</div>
-</footer> </div>
-<!-- load background image script -->
-<script>
-window.addEventListener("load",function(event) {
-init();
-});
-function init(){
-var image = document.getElementById('background-image');
-var body = document.getElementById('body');
-if ( image === null ) {
-image = document.getElementById('body');
-}
-if ( image != null ) {
-image.className += " loaded";
-body.className += " loaded";
-}
-}
-</script>
-<script>
-// Set the date we're counting down to
-var counter = document.getElementById('counter');
-var unixtime = counter.getAttribute('data-date');
-var date = new Date(unixtime*1000);
-var countDownDate = new Date(date).getTime();
-// Update the count down every 1 second
-var x = setInterval(function() {
-// Get todays date and time
-var now = new Date().getTime();
-// Find the distance between now an the count down date
-var distance = countDownDate - now;
-// Time calculations for days, hours, minutes and seconds
-var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-if (days < 10) {
-days = '0' + days;
-}
-if (hours < 10) {
-hours = '0' + hours;
-}
-if (minutes < 10) {
-minutes = '0' + minutes;
-}
-if (seconds < 10) {
-seconds = '0' + seconds;
-}
-if (distance >= 0) {
-document.getElementById('counter-day').innerHTML = days;
-document.getElementById('counter-hour').innerHTML = hours;
-document.getElementById('counter-minute').innerHTML = minutes;
-document.getElementById('counter-second').innerHTML = seconds;
-}
-}, 1000);
-</script>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
 </body>
 </html>

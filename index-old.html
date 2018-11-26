@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!-- Coming soon -->
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- SEO -->
+<title>IoT-Bus is coming soon!</title>
+<meta name="description" content="IoT-Bus is coming soon"/>
+<!-- og meta for facebook, googleplus -->
+<meta property="og:title" content="IoT-Bus is coming soon!"/>
+<meta property="og:description" content="IoT-Bus is coming soon"/>
+<meta property="og:url" content="http://iot-bus.com/2016/07/24/io-2/"/>
+<meta property="og:type" content="website" />
+<meta property="og:image" content=""/>
+<!-- twitter meta -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IoT-Bus is coming soon!"/>
+<meta name="twitter:description" content="IoT-Bus is coming soon"/>
+<meta name="twitter:url" content="http://iot-bus.com/2016/07/24/io-2/"/>
+<meta name="twitter:image" content=""/>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700%7CRaleway:400,400i,700,400,400i&amp;subset=greek,cyrillic-ext,latin-ext,cyrillic,latin,vietnamese,greek-ext" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://iot-bus.com/style.css" type="text/css" media="all">
+<style>
+body,input, select, textarea, button {font-family:'Raleway', 'sans-serif';color:#999999;}
+input {font-family: Raleway, 'fontAwesome';}
+body {font-size:20px;}
+a {color:#999999;}
+input[type="submit"] {background-color: #e82e1e;}
+::-webkit-input-placeholder {color: hsl( 0, 0%, 80%);}
+::-moz-placeholder {color: hsl( 0, 0%, 80%);}
+:-ms-input-placeholder {color: hsl( 0, 0%, 80%);}
+::-moz-placeholder {color: hsl( 0, 0%, 80%);}
+.input-icon:before,input[type="email"],input[type="text"]{color: hsl( 0, 0%, 80%);}
+/* input[type="email"],input[type="text"] {border:1px solid hsl( 0, 0%, 80%);} */
+footer, footer a {color: hsl( 0, 0%, 80%);}
+.social-list.body a {background-color: #999999;}
+.social-list.body a:hover {background-color: #e82e1e;}
+.social-list.footer a:hover {color: #e82e1e;}
+.social-list.footer li:not(:last-of-type)::after {background-color: hsl( 0, 0%, 80%);}
+.inner-content p {line-height: 1.6; letter-spacing: 0px;font-weight:400;; }
+h1:not(.text-logo),h2, h3,h4,h5,h6,.text-logo-wrapper {font-size:2em;letter-spacing: 0px; font-weight:700;; }
+h1 { font-weight:700;;}
+</style>
+<!-- wp video shortcode -->
+<style>
+.wp-video {margin: 0 auto;}
+.wp-video-shortcode {max-width: 100%;}
+</style>
+</head>
+<body id="body">
+<div id="background-wrapper">
+<div id="background-image" class="color loaded" style="background-color:#ffffff"></div> </div>
+<div class="inner-wrap">
+<div class="inner-content">
+<div class="logo-wrapper image"><img src="https://i2.wp.com/iot-bus.com/wp-content/uploads/2018/06/oddWires-Logo-7-Transparent.png?fit=1169%2C596" class="graphic-logo" alt="logo"></div><h2 class="cmp-title animated ">IoT-Bus opens the Internet of Things™</h2> 
+<div id="counter" data-date="1541980800">
+<div class="counter-wrap">
+<div class="inner-counter">
+<span id="counter-day">00</span>
+<p>days</p>
+</div>
+</div>
+<div class="counter-wrap">
+<div class="inner-counter">
+<span id="counter-hour">00</span>
+<p>hours</p>
+</div>
+</div>
+<div class="counter-wrap">
+<div class="inner-counter">
+<span id="counter-minute">00</span>
+<p>minutes</p>
+</div>
+</div>
+<div class="counter-wrap">
+<div class="inner-counter">
+<span id="counter-second">00</span>
+<p>seconds</p>
+</div>
+</div>
+</div>
+<div class="content">
+<p>IoT-Bus is coming here soon! Right now, you can buy IoT-Bus boards at <a href="http://www.oddwires.com">oddWires</a>.</p>
+</div>
+<form id="subscribe-form" method="post" class="cmp-subscribe">
+<div class="cmp-form-inputs">
+<input type="hidden" id="save_options_field" name="save_options_field" value="d6f6cb4637" /><input type="hidden" name="_wp_http_referer" value="/" />
+<input type="email" id="email-subscribe" name="email" placeholder="Insert your email address." required>
+<input type="submit" id="submit-subscribe" value="Submit">
+<div style="display: none;">
+<input type="text" name="form_honeypot" value="" tabindex="-1" autocomplete="off">
+</div>
+<div id="subscribe-response"></div>
+<div id="subscribe-overlay"></div>
+</div>
+<div class="cmp-form-notes">
+<p>Keep up to date with IoT-Bus!</p>
+</div>
+</form>
+<script>
+var ajaxurl = "http://iot-bus.com/wp-admin/admin-ajax.php";
+function AJAXform( formID, buttonID, resultID, emailID, firstnameID, lastnameID, formMethod = 'POST' ){
+var selectForm = document.getElementById(formID); // Select the form by ID.
+var selectButton = document.getElementById(buttonID); // Select the button by ID.
+var selectResult = document.getElementById(resultID); // Select result element by ID.
+var emailInput = document.getElementById(emailID); // Select email input by ID.
+var firstnameInput = document.getElementById(firstnameID); // Select firstname input by ID.
+var lastnameInput = document.getElementById(lastnameID); // Select lastname input by ID.
+var firstname;
+var lastname;
+function XMLhttp(){
+var httpRequest = new XMLHttpRequest();
+httpRequest.onreadystatechange = function(){
+if ( this.readyState == 4 && this.status == 200 ) {
+result = JSON.parse( this.responseText );
+selectResult.innerHTML = result.message; // Display the result inside result element.
+emailInput.value = '';
+selectForm.classList.add('-subscribed');
+if ( result.status == 1 ) {
+selectForm.classList.remove('-subscribe-failed');
+selectForm.classList.add('-subscribe-successful');
+} else {
+selectForm.classList.add('-subscribe-failed');
+}
+}
+};
+firstname = ( firstnameInput == null ) ? '' : firstnameInput.value;
+lastname = ( lastnameInput == null ) ? '' : lastnameInput.value;
+httpRequest.open(formMethod, ajaxurl, true);
+httpRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+httpRequest.send('action=niteo_subscribe&ajax=true&form_honeypot=&email=' + emailInput.value + '&firstname=' + firstname + '&lastname=' + lastname);
+}
+selectButton.onclick = function(){ // If clicked on the button.
+if ( emailInput.value != '' ) {
+XMLhttp();
+}
+}
+selectForm.onsubmit = function(){ // Prevent page refresh
+return false;
+}
+}
+/* Usage */
+window.addEventListener("load",function(event) {
+AJAXform( 'subscribe-form', 'submit-subscribe', 'subscribe-response', 'email-subscribe', 'firstname-subscribe', 'lastname-subscribe', 'POST' );
+});
+</script>
+</div>
+<footer>
+<div class="social-wrapper">
+</div>
+</footer> </div>
+<!-- load background image script -->
+<script>
+window.addEventListener("load",function(event) {
+init();
+});
+function init(){
+var image = document.getElementById('background-image');
+var body = document.getElementById('body');
+if ( image === null ) {
+image = document.getElementById('body');
+}
+if ( image != null ) {
+image.className += " loaded";
+body.className += " loaded";
+}
+}
+</script>
+<script>
+// Set the date we're counting down to
+var counter = document.getElementById('counter');
+var unixtime = counter.getAttribute('data-date');
+var date = new Date(unixtime*1000);
+var countDownDate = new Date(date).getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+// Get todays date and time
+var now = new Date().getTime();
+// Find the distance between now an the count down date
+var distance = countDownDate - now;
+// Time calculations for days, hours, minutes and seconds
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+if (days < 10) {
+days = '0' + days;
+}
+if (hours < 10) {
+hours = '0' + hours;
+}
+if (minutes < 10) {
+minutes = '0' + minutes;
+}
+if (seconds < 10) {
+seconds = '0' + seconds;
+}
+if (distance >= 0) {
+document.getElementById('counter-day').innerHTML = days;
+document.getElementById('counter-hour').innerHTML = hours;
+document.getElementById('counter-minute').innerHTML = minutes;
+document.getElementById('counter-second').innerHTML = seconds;
+}
+}, 1000);
+</script>
+</body>
+</html>
