@@ -5,10 +5,10 @@ IoT-Bus Examples Index
 
 You can find the examples on the iot-bus `GitHub page <https://github.com/iot-bus>`_. The examples are in two repositories:
 
-`iot-bus-mozilla-iot-examples-platformio <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-platformio>`_
+`iot-bus-examples-platformio <https://github.com/iot-bus/iot-bus-examples-platformio>`_
     Examples in c++ format and platformio.ini files that contain library dependencies.
 
-`iot-bus-mozilla-iot-examples-arduino <https://github.com/iot-bus/iot-bus-mozilla-iot-examples-arduino>`_
+`iot-bus-examples-arduino <https://github.com/iot-bus/iot-bus-examples-arduino>`_
     Examples in ino format. You will need to separately install library dependencies described in each example.
 
 The examples that are described in this section are a subset of the examples in the repository. 
