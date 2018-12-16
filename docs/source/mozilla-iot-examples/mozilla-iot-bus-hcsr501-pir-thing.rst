@@ -4,6 +4,14 @@ IoT-Bus HC-SR501 PIR Thing
 ==========================
 
 
+.. image:: ../_static/hc-sr501-motion-sensor.jpg
+    :align: left
+    :alt: HC-SR501
+    :scale: 50%
+    :width: 100%
+    :target: ../_static/hc-sr501-motion-sensor.jpg
+
+
 .. code-block:: c++
 
     #include <Arduino.h>

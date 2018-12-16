@@ -3,6 +3,13 @@
 IoT-Bus DHT11 Thing
 ===================
 
+.. image:: ../_static/DHT11-Pinout.jpg
+    :align: left
+    :alt: DHT11
+    :scale: 50%
+    :width: 100%
+    :target: ../_static/DHT11-Pinout.jpg
+
 .. code-block:: c++
 
     #include <arduino.h>
