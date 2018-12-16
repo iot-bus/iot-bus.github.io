@@ -4,9 +4,9 @@ IoT-Bus HC-SR04 Thing
 =====================
 
 .. image:: ../_static/HC-SR04-1.jpg
-    :align: left
+    :align: center
     :alt: HC-SR04
-    :scale: 50%
+    :scale: 40%
     :width: 100%
     :target: ../_static/HC-SR04-1.jpg
 

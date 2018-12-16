@@ -4,9 +4,9 @@ IoT-Bus DHT11 Thing
 ===================
 
 .. image:: ../_static/DHT11-Pinout.jpg
-    :align: left
+    :align: center
     :alt: DHT11
-    :scale: 50%
+    :scale: 40%
     :width: 100%
     :target: ../_static/DHT11-Pinout.jpg
 
