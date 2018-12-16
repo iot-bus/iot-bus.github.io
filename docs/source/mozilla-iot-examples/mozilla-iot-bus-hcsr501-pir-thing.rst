@@ -5,7 +5,7 @@ IoT-Bus HC-SR501 PIR Thing
 
 
 .. image:: ../_static/hc-sr501-motion-sensor.jpg
-    :align: left
+    :align: center
     :alt: HC-SR501
     :scale: 50%
     :width: 100%
