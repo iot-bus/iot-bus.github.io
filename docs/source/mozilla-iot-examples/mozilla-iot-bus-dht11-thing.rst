@@ -6,7 +6,7 @@ IoT-Bus DHT11 Thing
 .. image:: ../_static/DHT11-Pinout.jpg
     :align: center
     :alt: DHT11
-   
+    :scale: 50%  
     :target: ../_static/DHT11-Pinout.jpg
 
 .. code-block:: c++
