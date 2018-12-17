@@ -27,6 +27,8 @@ Pins Used
     - Description
   * - 17 
     - Relay
+  * - 16
+    - Relay (alternative jumper)  
 
 Schematic
 ---------
