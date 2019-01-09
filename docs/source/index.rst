@@ -17,8 +17,7 @@
 ..
 
 .. meta::
-   :name: google-site-verification
-   :content: DSWd4YQ34_R0wE9BV35iF4zRLPupapF-Xwst_XebZDY
+   :google-site-verification: DSWd4YQ34_R0wE9BV35iF4zRLPupapF-Xwst_XebZDY
 
 Welcome to oddWires IoT-Bus 
 ===========================
