@@ -623,6 +623,13 @@ div.wpcf7-response-output { border:none;margin: 0; padding: 0;}
     body {font-size: 15px!important;}
 }
 
+@media only screen and (max-width : 667px) {
+    .counter-wrap span {font-size: 2em;}
+    .counter-wrap {width: calc(25% - 17px);}
+    .counter-wrap:not(:last-of-type) {margin-right: 15px;}
+    .logo-wrapper {padding-bottom: 30px;}
+}
+
 @media only screen and (max-width : 620px) {
     .counter-wrap span {font-size: 2em;}
     .counter-wrap {width: calc(25% - 17px);}
