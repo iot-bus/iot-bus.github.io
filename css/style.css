@@ -2100,9 +2100,9 @@ blockquote {
 /* Responsive Elements */
 /*------------------------------------------------------------------------------------------*/
 
-/* =Media Queries for Nav
+/* =Media Queries for Nav - changed from 1024 to 768 below
 ===============================*/
-@media all and (max-width: 1024px) {
+@media all and (max-width: 768px) {
     #nav-trigger {
         display: block;
     }
