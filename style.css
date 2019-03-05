@@ -616,7 +616,7 @@ div.wpcf7-response-output { border:none;margin: 0; padding: 0;}
     #counter {padding-bottom: 0;}
 }
 
-@media only screen and (max-width : 768px) and (orientation: portrait) {
+@media only screen and (max-width : 1024px) and (orientation: portrait) {
     .logo-wrapper img {max-width: 100%; }
     .inner-content, footer {width:100%;}
     .text-logo { font-size: 1.3em;}
