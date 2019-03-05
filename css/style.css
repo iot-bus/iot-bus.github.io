@@ -695,7 +695,7 @@ nav#nav-mobile a:hover {
 
 .social-icons a {
     display: inline-block;
-    width: 24px; /* was 32 */
+    width: 32px; 
     text-align: center;
 }
 
@@ -1170,8 +1170,8 @@ blockquote {
     }
 }
 
-/* handling phones and small screens - was 1024px */
-@media only screen and (max-width: 768px) {
+/* handling phones and small screens - change to 768 to show full menu on iPad - but menu needs to be shorter */
+@media only screen and (max-width: 1024px) {
     .featherlight .featherlight-content {
         /* dimensions: maximize lightbox with for small screens */
         margin-left: 10px;
