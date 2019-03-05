@@ -614,6 +614,7 @@ div.wpcf7-response-output { border:none;margin: 0; padding: 0;}
     .counter-wrap:not(:last-of-type) {margin-right: 30px;}
     .counter-wrap{width: calc(25% - 28px);}
     #counter {padding-bottom: 0;}
+    body {color: lightsalmon;}
 }
 
 @media only screen and (max-width : 768px) { 
@@ -628,6 +629,7 @@ div.wpcf7-response-output { border:none;margin: 0; padding: 0;}
     .counter-wrap {width: calc(25% - 17px);}
     .counter-wrap:not(:last-of-type) {margin-right: 15px;}
     .logo-wrapper {padding-bottom: 30px;}
+    body {color: yellow;}
 }
 
 @media only screen and (max-width : 520px) {
