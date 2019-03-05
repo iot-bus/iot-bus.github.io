@@ -607,7 +607,7 @@ div.wpcf7-response-output { border:none;margin: 0; padding: 0;}
 
 @media only screen and (max-width : 1024px) {
     .text-logo { font-size: 1.6em;}
-    body {font-size: 16px!important;}
+    body {font-size: 16px!important;color: green}
 }   
 
 @media only screen and (max-width : 820px) {
@@ -620,7 +620,7 @@ div.wpcf7-response-output { border:none;margin: 0; padding: 0;}
     .logo-wrapper img {max-width: 100%; }
     .inner-content, footer {width:100%;}
     .text-logo { font-size: 1.3em;}
-    body {font-size: 15px!important;}
+    body {font-size: 15px!important; color: blue}
 }
 
 @media only screen and (max-width : 620px) {
@@ -641,7 +641,7 @@ div.wpcf7-response-output { border:none;margin: 0; padding: 0;}
     input[type="email"],
     .cmp-subscribe input[type="email"] {margin-bottom: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
     .text-logo { font-size: 1.2em;}
-    body {font-size: 14px!important;}
+    body {font-size: 14px!important; color: red}
 
 }
 
