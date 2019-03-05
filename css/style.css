@@ -1170,8 +1170,8 @@ blockquote {
     }
 }
 
-/* handling phones and small screens */
-@media only screen and (max-width: 1024px) {
+/* handling phones and small screens - was 1024px */
+@media only screen and (max-width: 768px) {
     .featherlight .featherlight-content {
         /* dimensions: maximize lightbox with for small screens */
         margin-left: 10px;
@@ -2100,9 +2100,9 @@ blockquote {
 /* Responsive Elements */
 /*------------------------------------------------------------------------------------------*/
 
-/* =Media Queries for Nav - changed from 1024 to 768 below
+/* =Media Queries for Nav 
 ===============================*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
     #nav-trigger {
         display: block;
     }
